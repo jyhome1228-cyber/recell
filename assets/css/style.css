@@ -225,3 +225,10 @@ body.subpage main.rc-reviews-main{display:block!important;max-width:none!importa
 body.subpage .rc-reviews-main .rc-review{background:#fff}
 body.subpage .rc-reviews-main #reEcloReviewGallery{background:#fff!important}
 @media(max-width:767px){.rc-reviews-intro{padding:55px 20px 20px}.rc-reviews-intro h1{font-size:28px!important}}
+
+/* QnA: preserve supplied Imweb accordion while removing subpage wrapper spacing */
+body.subpage main.rc-qna-main{display:block!important;max-width:none!important;min-height:0!important;padding:0!important;background:#fff!important}
+body.subpage main.rc-qna-main .rc-qna-title{font-size:clamp(29px,3vw,38px)!important;font-weight:500!important}
+body.subpage main.rc-qna-main .rc-qna-intro strong{font-weight:500!important}
+body.subpage main.rc-qna-main .rc-qna-question-text{font-size:15px!important;font-weight:400!important}
+@media(max-width:767px){body.subpage main.rc-qna-main .rc-qna-title{font-size:30px!important}body.subpage main.rc-qna-main .rc-qna-question-text{font-size:14px!important}}
