@@ -79,3 +79,6 @@ body.subpage .site-footer p{color:#181818!important}
 body.subpage .site-footer .site-shell{max-width:1080px}
 @media(max-width:980px){.site-menu a{font-size:13px!important}.site-actions{margin-left:auto;margin-right:10px}}
 @media(max-width:640px){.site-header .site-brand{font-size:18px!important}.site-actions{gap:9px}.site-footer{padding:46px 0!important}.site-footer-logo{font-size:23px}.site-business p{font-size:12px!important}.site-legal p{font-size:10px!important}}
+
+/* Customers Pick: keep the supplied archive layout unmodified inside the shared shell */
+body.subpage main.customer-pick-main{display:block;padding:0!important;min-height:0;background:#fff!important;max-width:none}
