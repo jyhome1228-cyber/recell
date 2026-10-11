@@ -1,0 +1,4179 @@
+<style>
+
+/* =========================================================
+
+   RECELLÉCLORE
+
+   ALL REVIEW
+
+========================================================= */
+
+
+
+.rc-review,
+
+.rc-review *,
+
+.rc-review *::before,
+
+.rc-review *::after {
+
+    box-sizing: border-box !important;
+
+}
+
+
+
+.rc-review {
+
+    --wine: #7B1820;
+
+    --black: #171717;
+
+    --gray: #747474;
+
+    --muted: #AAAAAA;
+
+    --line: #E8E8E8;
+
+    --soft-wine: #F8EEEE;
+
+
+
+    width: calc(100% - 80px) !important;
+
+    max-width: 1300px !important;
+
+
+
+    margin: 0 auto !important;
+
+    padding: 72px 0 110px !important;
+
+
+
+    background: #fff !important;
+
+    color: var(--black) !important;
+
+
+
+    font-family:
+
+        Pretendard,
+
+        "Apple SD Gothic Neo",
+
+        "Noto Sans KR",
+
+        Arial,
+
+        sans-serif !important;
+
+}
+
+
+
+.rc-review h1,
+
+.rc-review h2,
+
+.rc-review h3,
+
+.rc-review p,
+
+.rc-review div,
+
+.rc-review span,
+
+.rc-review button,
+
+.rc-review a {
+
+    font-family: inherit !important;
+
+}
+
+
+
+.rc-review h1,
+
+.rc-review h2,
+
+.rc-review h3,
+
+.rc-review p {
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+}
+
+
+
+.rc-review button {
+
+    appearance: none !important;
+
+    -webkit-appearance: none !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   HEADER
+
+========================================================= */
+
+
+
+.rc-review-head {
+
+    display: flex !important;
+
+    justify-content: space-between !important;
+
+    align-items: flex-end !important;
+
+
+
+    width: 100% !important;
+
+
+
+    margin: 0 !important;
+
+    padding: 0 0 24px !important;
+
+
+
+    border: 0 !important;
+
+    border-bottom: 1px solid #222 !important;
+
+}
+
+
+
+.rc-review-title-wrap {
+
+    display: flex !important;
+
+    align-items: baseline !important;
+
+    gap: 11px !important;
+
+}
+
+
+
+.rc-review-title {
+
+    color: #171717 !important;
+
+
+
+    font-size: 26px !important;
+
+    line-height: 1 !important;
+
+    font-weight: 400 !important;
+
+
+
+    letter-spacing: -.035em !important;
+
+}
+
+
+
+.rc-review-count {
+
+    color: #aaa !important;
+
+
+
+    font-size: 10px !important;
+
+    line-height: 1 !important;
+
+    font-weight: 400 !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   WRITE
+
+========================================================= */
+
+
+
+.rc-review-write {
+
+    display: inline-flex !important;
+
+    justify-content: center !important;
+
+    align-items: center !important;
+
+
+
+    width: 132px !important;
+
+    height: 42px !important;
+
+
+
+    margin: 0 !important;
+
+    padding: 0 16px !important;
+
+
+
+    border: 1px solid var(--wine) !important;
+
+    border-radius: 0 !important;
+
+
+
+    background: var(--wine) !important;
+
+
+
+    color: #fff !important;
+
+    -webkit-text-fill-color: #fff !important;
+
+
+
+    font-size: 9px !important;
+
+    line-height: 42px !important;
+
+    font-weight: 500 !important;
+
+
+
+    letter-spacing: .07em !important;
+
+
+
+    box-shadow: none !important;
+
+
+
+    cursor: pointer !important;
+
+}
+
+
+
+.rc-review-write:hover,
+
+.rc-review-write:focus,
+
+.rc-review-write:active {
+
+    background: #681319 !important;
+
+
+
+    color: #fff !important;
+
+    -webkit-text-fill-color: #fff !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   TOOLBAR
+
+========================================================= */
+
+
+
+.rc-review-toolbar {
+
+    display: flex !important;
+
+    justify-content: space-between !important;
+
+    align-items: center !important;
+
+
+
+    width: 100% !important;
+
+    height: 68px !important;
+
+
+
+    margin: 0 !important;
+
+    padding: 0 4px !important;
+
+
+
+    border-bottom: 1px solid var(--line) !important;
+
+
+
+    background: #fff !important;
+
+}
+
+
+
+.rc-review-rating-summary {
+
+    display: flex !important;
+
+    align-items: center !important;
+
+
+
+    gap: 10px !important;
+
+}
+
+
+
+.rc-review-stars {
+
+    color: var(--wine) !important;
+
+    -webkit-text-fill-color: var(--wine) !important;
+
+
+
+    font-size: 13px !important;
+
+    line-height: 1 !important;
+
+
+
+    letter-spacing: 1px !important;
+
+
+
+    white-space: nowrap !important;
+
+}
+
+
+
+.rc-review-score {
+
+    color: #222 !important;
+
+
+
+    font-size: 12px !important;
+
+    line-height: 1 !important;
+
+    font-weight: 600 !important;
+
+}
+
+
+
+.rc-review-summary-text {
+
+    color: #aaa !important;
+
+
+
+    font-size: 9px !important;
+
+    line-height: 1 !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   FILTER
+
+========================================================= */
+
+
+
+.rc-review-filter {
+
+    display: flex !important;
+
+    align-items: center !important;
+
+}
+
+
+
+.rc-review-filter button {
+
+    position: relative !important;
+
+
+
+    width: auto !important;
+
+    min-width: 0 !important;
+
+    height: auto !important;
+
+
+
+    margin: 0 !important;
+
+    padding: 0 12px !important;
+
+
+
+    border: 0 !important;
+
+
+
+    background: transparent !important;
+
+
+
+    color: #aaa !important;
+
+    -webkit-text-fill-color: #aaa !important;
+
+
+
+    font-size: 9px !important;
+
+    line-height: 1 !important;
+
+    font-weight: 400 !important;
+
+
+
+    box-shadow: none !important;
+
+
+
+    cursor: pointer !important;
+
+}
+
+
+
+.rc-review-filter button:last-child {
+
+    padding-right: 0 !important;
+
+}
+
+
+
+.rc-review-filter button + button::before {
+
+    content: "" !important;
+
+
+
+    position: absolute !important;
+
+    left: 0 !important;
+
+    top: 50% !important;
+
+
+
+    width: 1px !important;
+
+    height: 8px !important;
+
+
+
+    background: #ddd !important;
+
+
+
+    transform: translateY(-50%) !important;
+
+}
+
+
+
+.rc-review-filter button.active {
+
+    color: #171717 !important;
+
+    -webkit-text-fill-color: #171717 !important;
+
+
+
+    font-weight: 600 !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   ITEM
+
+========================================================= */
+
+
+
+.rc-review-item {
+
+    position: relative !important;
+
+
+
+    display: grid !important;
+
+
+
+    grid-template-columns:
+
+        125px
+
+        minmax(0,1fr)
+
+        115px
+
+        105px !important;
+
+
+
+    column-gap: 28px !important;
+
+
+
+    align-items: center !important;
+
+
+
+    width: 100% !important;
+
+    min-height: 136px !important;
+
+
+
+    margin: 0 !important;
+
+    padding: 24px 4px !important;
+
+
+
+    border: 0 !important;
+
+    border-bottom: 1px solid var(--line) !important;
+
+
+
+    border-radius: 0 !important;
+
+
+
+    background: #fff !important;
+
+
+
+    box-shadow: none !important;
+
+
+
+    cursor: pointer !important;
+
+
+
+    transition: background .2s ease !important;
+
+}
+
+
+
+.rc-review-item:hover {
+
+    background: #fafafa !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   RATING
+
+========================================================= */
+
+
+
+.rc-review-rating {
+
+    align-self: start !important;
+
+
+
+    padding-top: 3px !important;
+
+}
+
+
+
+.rc-review-rating .rc-review-stars {
+
+    display: block !important;
+
+
+
+    margin-bottom: 7px !important;
+
+
+
+    font-size: 11px !important;
+
+}
+
+
+
+.rc-review-rating-label {
+
+    display: block !important;
+
+
+
+    color: #aaa !important;
+
+
+
+    font-size: 9px !important;
+
+    line-height: 1 !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   CONTENT
+
+========================================================= */
+
+
+
+.rc-review-content {
+
+    align-self: start !important;
+
+
+
+    min-width: 0 !important;
+
+}
+
+
+
+.rc-review-content-top {
+
+    display: flex !important;
+
+    align-items: center !important;
+
+
+
+    gap: 9px !important;
+
+
+
+    margin-bottom: 9px !important;
+
+}
+
+
+
+.rc-review-photo-badge {
+
+    flex: 0 0 auto !important;
+
+
+
+    display: inline-flex !important;
+
+    justify-content: center !important;
+
+    align-items: center !important;
+
+
+
+    height: 19px !important;
+
+
+
+    padding: 0 7px !important;
+
+
+
+    background: var(--soft-wine) !important;
+
+
+
+    color: var(--wine) !important;
+
+    -webkit-text-fill-color: var(--wine) !important;
+
+
+
+    font-size: 8px !important;
+
+    line-height: 19px !important;
+
+    font-weight: 600 !important;
+
+
+
+    letter-spacing: .05em !important;
+
+}
+
+
+
+.rc-review-subject {
+
+    min-width: 0 !important;
+
+
+
+    color: #171717 !important;
+
+    -webkit-text-fill-color: #171717 !important;
+
+
+
+    font-size: 16px !important;
+
+    line-height: 1.45 !important;
+
+    font-weight: 600 !important;
+
+
+
+    letter-spacing: -.035em !important;
+
+
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+
+}
+
+
+
+.rc-review-description {
+
+    display: -webkit-box !important;
+
+
+
+    width: 100% !important;
+
+    max-width: 790px !important;
+
+
+
+    color: #777 !important;
+
+    -webkit-text-fill-color: #777 !important;
+
+
+
+    font-size: 10px !important;
+
+    line-height: 1.75 !important;
+
+    font-weight: 400 !important;
+
+
+
+    letter-spacing: -.018em !important;
+
+
+
+    -webkit-box-orient: vertical !important;
+
+    -webkit-line-clamp: 2 !important;
+
+
+
+    overflow: hidden !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   META
+
+========================================================= */
+
+
+
+.rc-review-meta {
+
+    align-self: start !important;
+
+
+
+    padding-top: 4px !important;
+
+
+
+    color: #aaa !important;
+
+
+
+    font-size: 9px !important;
+
+    line-height: 1.8 !important;
+
+}
+
+
+
+.rc-review-user {
+
+    display: block !important;
+
+
+
+    margin-bottom: 2px !important;
+
+
+
+    color: #666 !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   IMAGE
+
+========================================================= */
+
+
+
+.rc-review-thumb {
+
+    width: 105px !important;
+
+    height: 82px !important;
+
+
+
+    overflow: hidden !important;
+
+
+
+    background: #f5f5f5 !important;
+
+}
+
+
+
+.rc-review-thumb img {
+
+    display: block !important;
+
+
+
+    width: 100% !important;
+
+    max-width: none !important;
+
+    height: 100% !important;
+
+
+
+    object-fit: cover !important;
+
+    object-position: center !important;
+
+
+
+    border: 0 !important;
+
+
+
+    transition: transform .3s ease !important;
+
+}
+
+
+
+.rc-review-item:hover .rc-review-thumb img {
+
+    transform: scale(1.025) !important;
+
+}
+
+
+
+.rc-review-thumb-empty {
+
+    width: 105px !important;
+
+    height: 82px !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   PAGINATION
+
+========================================================= */
+
+
+
+.rc-review-pagination {
+
+    display: flex !important;
+
+    justify-content: center !important;
+
+    align-items: center !important;
+
+
+
+    gap: 2px !important;
+
+
+
+    margin-top: 44px !important;
+
+}
+
+
+
+.rc-review-pagination button {
+
+    display: inline-flex !important;
+
+    justify-content: center !important;
+
+    align-items: center !important;
+
+
+
+    width: 32px !important;
+
+    min-width: 32px !important;
+
+    height: 32px !important;
+
+
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+
+
+    border: 0 !important;
+
+
+
+    background: transparent !important;
+
+
+
+    color: #999 !important;
+
+    -webkit-text-fill-color: #999 !important;
+
+
+
+    font-size: 10px !important;
+
+
+
+    box-shadow: none !important;
+
+
+
+    cursor: pointer !important;
+
+}
+
+
+
+.rc-review-pagination button.active {
+
+    background: var(--wine) !important;
+
+
+
+    color: #fff !important;
+
+    -webkit-text-fill-color: #fff !important;
+
+}
+
+
+
+.rc-review-pagination button:disabled {
+
+    opacity: .25 !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   MEMBER POPUP
+
+========================================================= */
+
+
+
+.rc-member-modal {
+
+    position: fixed !important;
+
+
+
+    inset: 0 !important;
+
+
+
+    z-index: 9999999 !important;
+
+
+
+    display: none !important;
+
+    justify-content: center !important;
+
+    align-items: center !important;
+
+
+
+    padding: 20px !important;
+
+
+
+    background: rgba(0,0,0,.42) !important;
+
+}
+
+
+
+.rc-member-modal.show {
+
+    display: flex !important;
+
+}
+
+
+
+.rc-member-dialog {
+
+    position: relative !important;
+
+
+
+    width: 100% !important;
+
+    max-width: 410px !important;
+
+
+
+    padding: 44px 36px 34px !important;
+
+
+
+    background: #fff !important;
+
+
+
+    text-align: center !important;
+
+
+
+    box-shadow:
+
+        0 20px 65px rgba(0,0,0,.15) !important;
+
+}
+
+
+
+.rc-member-dialog h3 {
+
+    margin-bottom: 12px !important;
+
+
+
+    color: #171717 !important;
+
+
+
+    font-size: 18px !important;
+
+    line-height: 1.45 !important;
+
+    font-weight: 600 !important;
+
+}
+
+
+
+.rc-member-dialog p {
+
+    margin-bottom: 28px !important;
+
+
+
+    color: #777 !important;
+
+
+
+    font-size: 11px !important;
+
+    line-height: 1.8 !important;
+
+}
+
+
+
+.rc-member-confirm {
+
+    display: flex !important;
+
+    justify-content: center !important;
+
+    align-items: center !important;
+
+
+
+    width: 100% !important;
+
+    height: 44px !important;
+
+
+
+    border: 1px solid var(--wine) !important;
+
+
+
+    background: var(--wine) !important;
+
+
+
+    color: #fff !important;
+
+    -webkit-text-fill-color: #fff !important;
+
+
+
+    font-size: 10px !important;
+
+
+
+    cursor: pointer !important;
+
+}
+
+
+
+.rc-member-close {
+
+    position: absolute !important;
+
+
+
+    right: 13px !important;
+
+    top: 11px !important;
+
+
+
+    width: 31px !important;
+
+    height: 31px !important;
+
+
+
+    padding: 0 !important;
+
+
+
+    border: 0 !important;
+
+
+
+    background: transparent !important;
+
+
+
+    color: #777 !important;
+
+
+
+    font-size: 23px !important;
+
+
+
+    cursor: pointer !important;
+
+}
+
+
+
+
+
+/* =========================================================
+
+   MOBILE
+
+========================================================= */
+
+
+
+@media (max-width:767px) {
+
+
+
+    .rc-review {
+
+        width: calc(100% - 40px) !important;
+
+
+
+        padding: 52px 0 75px !important;
+
+    }
+
+
+
+    .rc-review-head {
+
+        align-items: center !important;
+
+    }
+
+
+
+    .rc-review-title {
+
+        font-size: 21px !important;
+
+    }
+
+
+
+    .rc-review-write {
+
+        width: auto !important;
+
+        height: 36px !important;
+
+
+
+        padding: 0 12px !important;
+
+
+
+        font-size: 8px !important;
+
+    }
+
+
+
+    .rc-review-toolbar {
+
+        display: block !important;
+
+
+
+        height: auto !important;
+
+
+
+        padding: 17px 0 !important;
+
+    }
+
+
+
+    .rc-review-rating-summary {
+
+        margin-bottom: 14px !important;
+
+    }
+
+
+
+    .rc-review-item {
+
+        display: block !important;
+
+
+
+        min-height: 0 !important;
+
+
+
+        padding: 21px 0 !important;
+
+    }
+
+
+
+    .rc-review-rating {
+
+        margin-bottom: 9px !important;
+
+    }
+
+
+
+    .rc-review-rating .rc-review-stars {
+
+        display: inline-block !important;
+
+
+
+        margin-right: 6px !important;
+
+        margin-bottom: 0 !important;
+
+    }
+
+
+
+    .rc-review-rating-label {
+
+        display: inline-block !important;
+
+    }
+
+
+
+    .rc-review-content {
+
+        min-height: 76px !important;
+
+
+
+        padding-right: 90px !important;
+
+    }
+
+
+
+    .rc-review-content-top {
+
+        flex-wrap: wrap !important;
+
+
+
+        gap: 5px 7px !important;
+
+    }
+
+
+
+    .rc-review-subject {
+
+        width: 100% !important;
+
+
+
+        font-size: 14px !important;
+
+    }
+
+
+
+    .rc-review-description {
+
+        font-size: 10px !important;
+
+        line-height: 1.65 !important;
+
+    }
+
+
+
+    .rc-review-meta {
+
+        display: flex !important;
+
+        gap: 8px !important;
+
+
+
+        margin-top: 10px !important;
+
+
+
+        padding: 0 !important;
+
+    }
+
+
+
+    .rc-review-user {
+
+        margin: 0 !important;
+
+    }
+
+
+
+    .rc-review-thumb {
+
+        position: absolute !important;
+
+
+
+        right: 0 !important;
+
+        top: 56px !important;
+
+
+
+        width: 75px !important;
+
+        height: 75px !important;
+
+    }
+
+
+
+    .rc-review-thumb-empty {
+
+        display: none !important;
+
+    }
+
+}
+
+</style>
+
+
+
+
+
+<section class="rc-review">
+
+
+
+    <div class="rc-review-head">
+
+
+
+        <div class="rc-review-title-wrap">
+
+
+
+            <h2 class="rc-review-title">
+
+                ALL REVIEW
+
+            </h2>
+
+
+
+            <span
+
+                class="rc-review-count"
+
+                id="rcReviewCount"
+
+            >
+
+                100 reviews
+
+            </span>
+
+
+
+        </div>
+
+
+
+        <button
+
+            type="button"
+
+            class="rc-review-write"
+
+            id="rcWriteReview"
+
+        >
+
+            WRITE REVIEW
+
+        </button>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="rc-review-toolbar">
+
+
+
+        <div class="rc-review-rating-summary">
+
+
+
+            <span class="rc-review-stars">
+
+                ★★★★★
+
+            </span>
+
+
+
+            <strong
+
+                class="rc-review-score"
+
+                id="rcAverageScore"
+
+            >
+
+                4.9
+
+            </strong>
+
+
+
+            <span class="rc-review-summary-text">
+
+                Review Archive
+
+            </span>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="rc-review-filter">
+
+
+
+            <button
+
+                type="button"
+
+                class="active"
+
+                data-filter="latest"
+
+            >
+
+                최신순
+
+            </button>
+
+
+
+            <button
+
+                type="button"
+
+                data-filter="rating"
+
+            >
+
+                평점순
+
+            </button>
+
+
+
+            <button
+
+                type="button"
+
+                data-filter="photo"
+
+            >
+
+                포토리뷰
+
+            </button>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div
+
+        class="rc-review-list"
+
+        id="rcReviewList"
+
+    ></div>
+
+
+
+
+
+    <div
+
+        class="rc-review-pagination"
+
+        id="rcPagination"
+
+    ></div>
+
+
+
+</section>
+
+
+
+
+
+<div
+
+    class="rc-member-modal"
+
+    id="rcMemberModal"
+
+>
+
+
+
+    <div class="rc-member-dialog">
+
+
+
+        <button
+
+            class="rc-member-close"
+
+            id="rcMemberClose"
+
+            type="button"
+
+        >
+
+            ×
+
+        </button>
+
+
+
+        <h3>
+
+            회원만 이용 가능합니다.
+
+        </h3>
+
+
+
+        <p>
+
+            리뷰 상세보기 및 리뷰 작성은<br>
+
+            회원가입 또는 로그인 후 이용해 주세요.
+
+        </p>
+
+
+
+        <button
+
+            class="rc-member-confirm"
+
+            id="rcMemberConfirm"
+
+            type="button"
+
+        >
+
+            확인
+
+        </button>
+
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<script>
+
+(function () {
+
+
+
+/* =========================================================
+
+   IMAGES
+
+========================================================= */
+
+
+
+const reviewImages = [
+
+
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/99720cc6605b2.png",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/a3593ce98f468.png",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/cbd9fc2f984a9.jpg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/6811dea685f0a.jpeg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/a65a57080044a.jpg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/a05947c7bc0bf.jpeg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/88a34d77b53e6.jpg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/dcb6f989c87fc.jpeg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/24e16f3f9b8bb.jpeg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/2a387316d5ff9.jpeg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/fb8f5648dd414.jpeg",
+
+"https://cdn.imweb.me/upload/S202410251a294b3f442b0/244b1e9d93ddf.jpeg"
+
+
+
+];
+
+
+
+
+
+/* =========================================================
+
+   REVIEW COPY
+
+========================================================= */
+
+
+
+const reviewCopy = [
+
+
+
+{
+
+title:"피부과 시술 후에도 부담 없이 사용했어요",
+
+body:"피부과에서 레이저 받고 피부가 좀 예민해져서 사용했어요. 평소 쓰던 제품도 따갑게 느껴질 때가 있는데 이건 부담 없이 사용할 수 있어서 좋았고 다음날 피부도 생각보다 편안했어요."
+
+},
+
+
+
+{
+
+title:"리쥬란 받고 밤에 꼭 챙겨 바르고 있어요",
+
+body:"리쥬란 받고 원장님이 시술 후에는 보습 관리가 중요하다고 해서 사용했어요. 자기 전에 충분히 바르고 잤는데 다음날 건조해서 당기는 느낌이 확실히 덜했습니다."
+
+},
+
+
+
+{
+
+title:"레이저 후 붉고 건조할 때 괜찮았어요",
+
+body:"레이저 받고 얼굴이 붉어지고 건조해서 걱정했는데 밤에 앰플을 사용하고 자니까 다음날 피부가 한결 편안하게 느껴졌어요. 시술 후 홈케어용으로 잘 쓰고 있습니다."
+
+},
+
+
+
+{
+
+title:"스킨보톡스 후 예민한 피부에도 편했어요",
+
+body:"스킨보톡스 후 피부가 예민해져 이것저것 바르기가 조심스러웠는데 리셀에클로는 사용감이 무겁지 않아 좋았어요. 며칠 사용하면서 피부 컨디션도 편안해진 느낌입니다."
+
+},
+
+
+
+{
+
+title:"다음날 피부가 탱탱해 보이는 느낌",
+
+body:"요즘 피부가 축 처지는 느낌이 들어서 밤마다 꾸준히 사용했어요. 다음날 아침 얼굴이 푸석해 보이는 느낌이 덜하고 피부가 촉촉하고 탱탱해 보이는 느낌이라 만족하고 있어요."
+
+},
+
+
+
+{
+
+title:"리프팅 시술 후 나이트 케어로 사용 중이에요",
+
+body:"리프팅 시술 받고 집에서 관리할 제품을 찾다가 사용하게 됐어요. 자기 전에 사용하면 아침에 피부가 쫀쫀한 느낌이 들어 요즘은 시술을 받지 않은 날에도 사용하고 있습니다."
+
+},
+
+
+
+{
+
+title:"아침에 피부 만져보면 확실히 촉촉해요",
+
+body:"나이트 케어로 사용하고 있는데 다음날 일어나서 피부를 만져보면 부드럽고 촉촉해요. 건조해서 축 처져 보이던 피부가 조금 더 탱탱하게 느껴집니다."
+
+},
+
+
+
+{
+
+title:"저녁 루틴으로 꾸준히 사용 중이에요",
+
+body:"요즘 탄력이 떨어지는 게 눈에 보여서 저녁 관리에 추가했어요. 세안 후 앰플을 사용하는 게 루틴이 됐는데 아침에 피부결도 매끈하게 느껴져 만족스럽습니다."
+
+},
+
+
+
+{
+
+title:"모공보다 먼저 피부결이 매끈해진 느낌",
+
+body:"요즘 모공이 부쩍 신경 쓰여서 사용했어요. 밤에 사용하고 다음날 화장할 때 피부결이 전보다 매끈하게 느껴져서 마음에 들었습니다."
+
+},
+
+
+
+{
+
+title:"거칠었던 피부결이 정돈된 느낌이에요",
+
+body:"피부가 거칠고 모공도 도드라져 보여 밤에 집중 관리 중이에요. 며칠 사용해보니 아침에 피부를 만졌을 때 조금 더 매끈하게 느껴져 좋았습니다."
+
+},
+
+
+
+{
+
+title:"화장 전에 피부 상태가 좋아진 느낌",
+
+body:"모공 때문에 화장할 때마다 신경 쓰였는데 자기 전에 꾸준히 사용하고 있어요. 아침에 세안하고 나면 피부가 부드럽고 촉촉해서 메이크업 전 컨디션이 좋아진 느낌이에요."
+
+},
+
+
+
+{
+
+title:"특히 코 주변 피부결이 덜 거칠어요",
+
+body:"요즘 피부결 관리에 관심이 많아서 사용하고 있어요. 밤에 바르면 다음날 피부가 매끈하게 느껴지고 특히 코 주변이 덜 거칠게 느껴져 꾸준히 사용 중입니다."
+
+},
+
+
+
+{
+
+title:"다음날 칙칙해 보이는 느낌이 덜해요",
+
+body:"요즘 피부가 칙칙해 보여 나이트 앰플로 사용하고 있어요. 자기 전에 사용하면 다음날 얼굴이 푸석하고 칙칙해 보이는 느낌이 덜해서 만족스럽습니다."
+
+},
+
+
+
+{
+
+title:"아침에 피부가 조금 더 맑아 보여요",
+
+body:"피부톤이 전체적으로 칙칙해 보여 밤에 집중적으로 관리하고 있어요. 꾸준히 사용하는 중인데 아침에 피부가 조금 더 맑고 정돈돼 보이는 느낌이라 만족합니다."
+
+},
+
+
+
+{
+
+title:"야근한 다음날에도 피부가 덜 푸석해 보여요",
+
+body:"요즘 야근이 많아서 피부가 계속 칙칙해 보였는데 밤에 앰플을 사용하는 습관을 들였어요. 다음날 일어났을 때 피부가 촉촉하고 생기 있어 보이는 느낌이라 좋습니다."
+
+},
+
+
+
+{
+
+title:"아침에 거울 보면 피부가 정돈돼 보여요",
+
+body:"피부가 칙칙하고 생기가 없어 보여 사용했는데 아침에 거울을 보면 피부가 한결 정돈돼 보이는 느낌이에요. 저녁에 사용하는 나이트 케어로 잘 쓰고 있습니다."
+
+},
+
+
+
+{
+
+title:"이거 바르고 잔 다음날 화장이 진짜 잘 먹어요",
+
+body:"평소 파운데이션을 바르면 각질이 뜨는 편인데 전날 밤 앰플을 사용하면 다음날 피부가 촉촉해서 그런지 훨씬 매끈하게 올라가요."
+
+},
+
+
+
+{
+
+title:"볼 쪽 화장 들뜸이 확실히 덜해요",
+
+body:"요즘 아침마다 화장이 들떠서 고민이었는데 자기 전에 사용하고 자니까 다음날 피부가 촉촉해요. 특히 볼 쪽이 잘 뜨는데 메이크업이 편하게 올라갑니다."
+
+},
+
+
+
+{
+
+title:"중요한 약속 전날에는 꼭 사용해요",
+
+body:"자기 전에 사용하면 다음날 피부결이 부드럽게 느껴져 화장할 때 만족스러워요. 요즘 중요한 일정이 있는 전날에는 꼭 챙겨 사용합니다."
+
+},
+
+
+
+{
+
+title:"건조해서 뜨던 화장이 잘 먹어요",
+
+body:"피부가 건조하면 화장이 많이 뜨는 편인데 밤에 리셀에클로를 사용하면 다음날 피부가 촉촉해요. 아침에 메이크업할 때 밀리지 않고 잘 올라가서 자주 사용합니다."
+
+},
+
+
+
+{
+
+title:"시술 후 예민했는데 편하게 사용했어요",
+
+body:"피부과 시술 후 피부가 많이 예민했는데 생각보다 부담 없이 사용할 수 있었어요. 다음날 피부도 촉촉하고 편안해서 만족했습니다."
+
+},
+
+
+
+{
+
+title:"다음날 피부결이 진짜 부드러워요",
+
+body:"자기 전에 사용하고 잤는데 다음날 피부결이 부드럽게 느껴져요. 화장도 잘 먹는 느낌이라 요즘 저녁마다 챙겨 쓰고 있습니다."
+
+},
+
+
+
+{
+
+title:"모공이랑 피부결 때문에 사용 중이에요",
+
+body:"모공과 거친 피부결이 신경 쓰여 사용하기 시작했는데 아침에 피부를 만져보면 촉촉하고 매끈하게 느껴져 만족하고 있습니다."
+
+},
+
+
+
+{
+
+title:"중요한 일정 전날 꼭 챙겨 써요",
+
+body:"다음날 피부가 푸석하지 않고 촉촉하게 느껴져 중요한 일정이 있는 전날에는 꼭 사용하고 있어요. 메이크업 컨디션도 괜찮은 편입니다."
+
+},
+
+
+
+{
+
+title:"시술 후 홈케어용으로 잘 쓰고 있어요",
+
+body:"피부과 다녀온 뒤부터 사용하기 시작했는데 시술 후 집에서 관리하는 용도로 잘 쓰고 있습니다. 사용감도 무겁지 않아 편했어요."
+
+},
+
+
+
+{
+
+title:"아침에 피부가 쫀쫀하게 느껴져요",
+
+body:"밤에 사용할 때는 촉촉한 정도라고 생각했는데 다음날 아침 피부를 만져보니 쫀쫀하고 부드럽게 느껴져 좋았습니다."
+
+},
+
+
+
+{
+
+title:"푸석했던 피부 컨디션이 좋아진 느낌",
+
+body:"요즘 피부가 푸석해서 고민이었는데 밤마다 꾸준히 사용하고 있어요. 아침에 일어났을 때 피부가 촉촉해서 컨디션이 좋아 보입니다."
+
+},
+
+
+
+{
+
+title:"처음엔 시술 후에만 쓰려고 했어요",
+
+body:"처음에는 피부과 시술 후에만 사용하려고 했는데 사용감이 마음에 들어서 지금은 저녁 나이트 케어로 꾸준히 사용하고 있습니다."
+
+}
+
+
+
+];
+
+
+
+
+
+/* =========================================================
+
+   PHOTO 12
+
+========================================================= */
+
+
+
+const reviews = [
+
+
+
+{
+
+id:1,
+
+rating:5,
+
+subject:"피부과 시술 후에도 부담 없이 사용했어요",
+
+description:reviewCopy[0].body,
+
+user:"김**",
+
+date:"2026.07.10",
+
+photo:reviewImages[0]
+
+},
+
+
+
+{
+
+id:2,
+
+rating:5,
+
+subject:"리쥬란 받고 밤에 꼭 챙겨 바르고 있어요",
+
+description:reviewCopy[1].body,
+
+user:"이**",
+
+date:"2026.05.22",
+
+photo:reviewImages[1]
+
+},
+
+
+
+{
+
+id:3,
+
+rating:5,
+
+subject:"레이저 후 붉고 건조할 때 괜찮았어요",
+
+description:reviewCopy[2].body,
+
+user:"박**",
+
+date:"2026.03.14",
+
+photo:reviewImages[2]
+
+},
+
+
+
+{
+
+id:4,
+
+rating:5,
+
+subject:"다음날 피부가 탱탱해 보이는 느낌",
+
+description:reviewCopy[4].body,
+
+user:"최**",
+
+date:"2025.12.18",
+
+photo:reviewImages[3]
+
+},
+
+
+
+{
+
+id:5,
+
+rating:5,
+
+subject:"아침에 피부 만져보면 확실히 촉촉해요",
+
+description:reviewCopy[6].body,
+
+user:"정**",
+
+date:"2025.11.27",
+
+photo:reviewImages[4]
+
+},
+
+
+
+{
+
+id:6,
+
+rating:5,
+
+subject:"거칠었던 피부결이 정돈된 느낌이에요",
+
+description:reviewCopy[9].body,
+
+user:"윤**",
+
+date:"2025.10.09",
+
+photo:reviewImages[5]
+
+},
+
+
+
+{
+
+id:7,
+
+rating:5,
+
+subject:"특히 코 주변 피부결이 덜 거칠어요",
+
+description:reviewCopy[11].body,
+
+user:"한**",
+
+date:"2025.09.21",
+
+photo:reviewImages[6]
+
+},
+
+
+
+{
+
+id:8,
+
+rating:5,
+
+subject:"아침에 피부가 조금 더 맑아 보여요",
+
+description:reviewCopy[13].body,
+
+user:"송**",
+
+date:"2025.08.30",
+
+photo:reviewImages[7]
+
+},
+
+
+
+{
+
+id:9,
+
+rating:5,
+
+subject:"이거 바르고 잔 다음날 화장이 진짜 잘 먹어요",
+
+description:reviewCopy[16].body,
+
+user:"임**",
+
+date:"2025.07.19",
+
+photo:reviewImages[8]
+
+},
+
+
+
+{
+
+id:10,
+
+rating:5,
+
+subject:"볼 쪽 화장 들뜸이 확실히 덜해요",
+
+description:reviewCopy[17].body,
+
+user:"오**",
+
+date:"2025.06.06",
+
+photo:reviewImages[9]
+
+},
+
+
+
+{
+
+id:11,
+
+rating:5,
+
+subject:"시술 후 홈케어용으로 잘 쓰고 있어요",
+
+description:reviewCopy[24].body,
+
+user:"강**",
+
+date:"2025.04.17",
+
+photo:reviewImages[10]
+
+},
+
+
+
+{
+
+id:12,
+
+rating:5,
+
+subject:"처음엔 시술 후에만 쓰려고 했어요",
+
+description:reviewCopy[27].body,
+
+user:"조**",
+
+date:"2025.02.08",
+
+photo:reviewImages[11]
+
+}
+
+
+
+];
+
+
+
+
+
+/* =========================================================
+
+   EXTRA REVIEW VARIATIONS
+
+========================================================= */
+
+
+
+const extraTitles = [
+
+
+
+"리쥬란 받은 날부터 저녁마다 챙겨 써요",
+
+"피부과 레이저 후 건조함 때문에 사용했어요",
+
+"시술 받은 다음날 피부가 덜 당겼어요",
+
+"관리 후 예민할 때 부담 없이 사용했어요",
+
+"레이저 후 홈케어로 만족하고 있어요",
+
+
+
+"탄력이 떨어져 보여 저녁 관리 시작했어요",
+
+"아침에 피부가 촉촉하고 쫀쫀해요",
+
+"푸석한 얼굴이 덜해 보이는 느낌이에요",
+
+"저녁마다 사용하는 게 루틴이 됐어요",
+
+"리프팅 관리 후 집에서도 계속 쓰고 있어요",
+
+
+
+"요즘 거칠어진 피부결 때문에 사용 중",
+
+"모공이 신경 쓰여 저녁마다 관리하고 있어요",
+
+"다음날 피부가 매끈하게 느껴져요",
+
+"코 주변 피부결 관리할 때 잘 쓰고 있어요",
+
+"화장 전에 피부결이 부드러워진 느낌",
+
+
+
+"칙칙했던 피부가 다음날 덜 푸석해 보여요",
+
+"아침 피부가 맑고 정돈돼 보이는 느낌",
+
+"야근한 날 밤에 꼭 챙겨 쓰고 있어요",
+
+"생기 없어 보일 때 저녁에 사용합니다",
+
+"아침에 얼굴이 촉촉해 보여 만족해요",
+
+
+
+"중요한 일정 전날 꼭 사용하고 있어요",
+
+"다음날 베이스가 매끈하게 올라가요",
+
+"건조해서 뜨던 파운데이션이 덜 떠요",
+
+"화장 잘 먹는 날은 전날 이걸 썼더라고요",
+
+"볼 쪽 메이크업이 전보다 편해졌어요",
+
+
+
+"주사기형이라 사용할 만큼 덜어 쓰기 편해요",
+
+"앰플 하나씩 사용하기 편해서 좋아요",
+
+"저녁 관리할 때 깔끔하게 사용하기 좋아요",
+
+"시술 후 필요한 만큼 사용하기 편하네요",
+
+"주사기 형태라 위생적으로 느껴져요",
+
+
+
+"밤에 바르고 자면 다음날 차이가 느껴져요",
+
+"요즘 나이트 케어로 가장 자주 사용해요",
+
+"촉촉하지만 무겁게 남지 않아요",
+
+"자기 전 관리용으로 잘 맞는 것 같아요",
+
+"시술 없는 날에도 저녁마다 사용 중이에요"
+
+
+
+];
+
+
+
+
+
+const extraBodies = [
+
+
+
+"피부과 시술을 받은 뒤 평소보다 피부가 예민하게 느껴져 밤에 사용했어요. 촉촉하게 마무리되고 다음날 피부가 덜 당기는 느낌이라 계속 챙겨 쓰고 있습니다.",
+
+
+
+"레이저 후 얼굴이 건조하고 붉어 보여 저녁에 사용했는데 사용감이 부담스럽지 않았어요. 다음날 아침 피부가 한결 편안하게 느껴졌습니다.",
+
+
+
+"시술 받은 날은 기초 제품도 조심스럽게 사용하는 편인데 이 제품은 저녁 관리에 사용하기 편했어요. 다음날 건조하게 당기는 느낌도 덜했습니다.",
+
+
+
+"리쥬란이나 레이저를 받은 후 집에서 관리할 때 사용하고 있어요. 자기 전에 사용하면 다음날 피부가 촉촉하고 편안하게 느껴집니다.",
+
+
+
+"시술 후에는 보습 관리가 중요하다고 해서 사용하기 시작했어요. 무겁게 덮이는 느낌보다는 촉촉하게 관리되는 느낌이라 마음에 들었습니다.",
+
+
+
+"요즘 얼굴이 푸석하고 탄력이 떨어져 보이는 것 같아 저녁마다 사용하고 있어요. 아침에 일어나면 피부가 조금 더 촉촉하고 탄탄해 보이는 느낌입니다.",
+
+
+
+"자기 전에 사용하고 아침에 세안할 때 피부를 만져보면 부드럽고 쫀쫀하게 느껴져요. 나이트 케어 제품으로 꾸준히 사용 중입니다.",
+
+
+
+"피부가 건조하면 얼굴이 더 처져 보이는 편인데 저녁에 충분히 사용하고 자면 다음날 푸석한 느낌이 덜해 만족하고 있습니다.",
+
+
+
+"리프팅 관리 후 집에서 같이 사용할 제품을 찾다가 사용하고 있어요. 피부가 건조하지 않게 유지되는 느낌이라 저녁마다 챙겨 씁니다.",
+
+
+
+"저녁에 세안하고 마지막 기초 단계에 사용하고 있어요. 다음날 아침 피부결이 매끈하고 촉촉해서 나이트 루틴으로 잘 맞습니다.",
+
+
+
+"요즘 모공보다도 피부 표면이 거칠어 보이는 게 신경 쓰였는데 밤에 사용한 다음날 피부가 조금 더 부드럽게 느껴졌어요.",
+
+
+
+"코 주변과 볼 쪽 피부결이 거칠어 보여 꾸준히 관리하고 있어요. 아침에 만져보면 전보다 매끄러운 느낌이라 계속 사용 중입니다.",
+
+
+
+"모공 때문에 화장할 때 피부가 매끈하지 않아 보였는데 전날 밤 사용하면 다음날 베이스가 조금 더 편하게 올라가는 느낌이에요.",
+
+
+
+"저녁마다 피부결 관리용으로 사용하고 있어요. 아침에 세안한 뒤 피부가 부드럽게 느껴지는 점이 가장 마음에 듭니다.",
+
+
+
+"건조할수록 피부결과 모공이 더 눈에 띄는 편인데 밤에 사용하면 다음날 촉촉해서 전체적으로 피부가 정돈돼 보이는 느낌입니다.",
+
+
+
+"요즘 얼굴이 칙칙하고 피곤해 보여서 저녁 관리에 추가했어요. 다음날 아침에는 피부가 푸석하고 생기 없어 보이는 느낌이 덜합니다.",
+
+
+
+"갑자기 피부톤이 확 달라진다기보다 아침에 거울을 봤을 때 피부가 촉촉하고 조금 더 맑아 보이는 느낌이라 만족해요.",
+
+
+
+"야근한 날에는 피부가 푸석하고 칙칙해 보이는데 자기 전에 사용하고 자면 다음날 피부 컨디션이 한결 나아 보여요.",
+
+
+
+"피부가 건조하면 얼굴이 칙칙해 보이는 편이라 밤에 꾸준히 사용하고 있어요. 다음날 촉촉하게 정돈돼 보여 마음에 듭니다.",
+
+
+
+"저녁에 사용하고 충분히 자고 나면 다음날 얼굴이 덜 피곤해 보이는 느낌이에요. 촉촉함도 적당해서 잘 쓰고 있습니다.",
+
+
+
+"중요한 일정이 있는 전날에는 저녁에 꼭 사용하고 있어요. 다음날 피부가 촉촉해서 파운데이션이 훨씬 편하게 올라갑니다.",
+
+
+
+"아침에 화장이 자꾸 들떠서 고민이었는데 전날 밤 사용하고 나면 피부가 부드럽게 느껴져 베이스가 매끈하게 올라가는 편이에요.",
+
+
+
+"볼과 코 주변에 파운데이션이 잘 뜨는 편인데 저녁에 사용한 다음날에는 피부가 촉촉해서 메이크업하기가 조금 더 편합니다.",
+
+
+
+"사용한 다음날에는 피부 표면이 부드럽게 느껴져요. 그래서 중요한 약속이나 촬영 전날에는 꼭 챙겨 사용하고 있습니다.",
+
+
+
+"건조한 날에는 화장이 잘 안 먹는데 밤에 사용하고 충분히 자고 나면 아침 피부 컨디션이 확실히 편안한 느낌입니다.",
+
+
+
+"주사기 형태라 필요한 만큼 피부에 덜어서 사용하기 편했어요. 시술 후에는 한 번에 깔끔하게 사용하기 좋아서 특히 만족합니다.",
+
+
+
+"일반적인 병 타입 앰플이 아니라 주사기형으로 되어 있어서 사용할 때 깔끔한 느낌이에요. 저녁 관리할 때 편하게 쓰고 있습니다.",
+
+
+
+"제품 형태가 독특해서 처음엔 낯설었는데 실제로 사용해보니 필요한 만큼 조절하기 편하고 깔끔하게 사용할 수 있어 좋았어요.",
+
+
+
+"시술 후에는 제품을 이것저것 많이 바르기보다 필요한 것만 사용하는 편인데 주사기형 앰플이라 관리하기 편하게 느껴졌습니다.",
+
+
+
+"주사기 형태로 개별 사용하기 편해서 피부가 예민한 날에도 깔끔하게 관리할 수 있다는 점이 마음에 들어요.",
+
+
+
+"밤에 사용할 때는 그냥 촉촉하다는 느낌인데 다음날 아침 세안할 때 피부가 부드럽고 쫀쫀해서 계속 사용하게 됩니다.",
+
+
+
+"처음에는 시술을 받은 날에만 사용했는데 사용감이 편해서 지금은 시술이 없는 날에도 저녁 루틴에 넣어서 사용하고 있어요.",
+
+
+
+"촉촉한데 너무 무겁거나 답답하게 남는 느낌이 적어요. 자기 전에 사용하는 나이트 케어 제품으로 잘 맞는 편입니다.",
+
+
+
+"피부가 예민하거나 푸석한 날 저녁에 사용하고 있어요. 다음날 피부 컨디션이 조금 더 편안하게 느껴져 만족하고 있습니다.",
+
+
+
+"저녁에 세안하고 사용하는 게 자연스럽게 루틴이 됐어요. 다음날 피부가 촉촉하고 매끈하게 느껴지는 점이 가장 마음에 듭니다."
+
+
+
+];
+
+
+
+
+
+/* =========================================================
+
+   USERS
+
+========================================================= */
+
+
+
+const users = [
+
+"김**","이**","박**","최**","정**",
+
+"윤**","한**","송**","임**","오**",
+
+"강**","조**","장**","신**","서**",
+
+"권**","황**","안**","류**","문**"
+
+];
+
+
+
+
+
+/* =========================================================
+
+   DATES
+
+========================================================= */
+
+
+
+const dates2026 = [
+
+"2026.06.29",
+
+"2026.06.12",
+
+"2026.05.31",
+
+"2026.04.26",
+
+"2026.03.28",
+
+"2026.02.17",
+
+"2026.01.11"
+
+];
+
+
+
+
+
+function formatDate(date) {
+
+
+
+const y = date.getFullYear();
+
+
+
+const m =
+
+String(date.getMonth()+1)
+
+.padStart(2,"0");
+
+
+
+const d =
+
+String(date.getDate())
+
+.padStart(2,"0");
+
+
+
+return `${y}.${m}.${d}`;
+
+
+
+}
+
+
+
+
+
+const extraDates = [];
+
+
+
+dates2026.forEach(
+
+date => extraDates.push(date)
+
+);
+
+
+
+
+
+/* 대부분 2025 */
+
+
+
+let date =
+
+new Date(2025,11,30);
+
+
+
+for(let i=0;i<72;i++){
+
+
+
+extraDates.push(
+
+formatDate(date)
+
+);
+
+
+
+date.setDate(
+
+date.getDate()-5
+
+);
+
+
+
+}
+
+
+
+
+
+/* 일부 2024 */
+
+
+
+const oldDates = [
+
+
+
+"2024.12.27",
+
+"2024.11.18",
+
+"2024.10.06",
+
+"2024.08.31",
+
+"2024.07.12",
+
+"2024.05.25",
+
+"2024.04.04",
+
+"2024.02.18",
+
+"2024.01.09"
+
+
+
+];
+
+
+
+oldDates.forEach(
+
+date => extraDates.push(date)
+
+);
+
+
+
+
+
+/* =========================================================
+
+   +88 REVIEWS
+
+========================================================= */
+
+
+
+const fourStars =
+
+new Set([
+
+8,17,26,39,53,64,75,83
+
+]);
+
+
+
+
+
+for(let i=0;i<88;i++){
+
+
+
+const copyIndex =
+
+i % reviewCopy.length;
+
+
+
+const extraIndex =
+
+i % extraTitles.length;
+
+
+
+
+
+/*
+
+앞부분은 사용자가 제공한 후기 문구 기반,
+
+뒤쪽은 동일 핵심 포인트 변형
+
+*/
+
+
+
+let title;
+
+let body;
+
+
+
+
+
+if(i < 28){
+
+
+
+title =
+
+reviewCopy[copyIndex].title;
+
+
+
+body =
+
+reviewCopy[copyIndex].body;
+
+
+
+}else{
+
+
+
+title =
+
+extraTitles[extraIndex];
+
+
+
+body =
+
+extraBodies[
+
+i % extraBodies.length
+
+];
+
+
+
+}
+
+
+
+
+
+reviews.push({
+
+
+
+id:13+i,
+
+
+
+rating:
+
+fourStars.has(i)
+
+? 4
+
+: 5,
+
+
+
+subject:title,
+
+
+
+description:body,
+
+
+
+user:
+
+users[
+
+(i*7)%users.length
+
+],
+
+
+
+date:
+
+extraDates[i],
+
+
+
+photo:null
+
+
+
+});
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   STATE
+
+========================================================= */
+
+
+
+let currentFilter =
+
+"latest";
+
+
+
+let currentPage =
+
+1;
+
+
+
+const perPage =
+
+10;
+
+
+
+
+
+const listEl =
+
+document.getElementById(
+
+"rcReviewList"
+
+);
+
+
+
+const paginationEl =
+
+document.getElementById(
+
+"rcPagination"
+
+);
+
+
+
+
+
+/* =========================================================
+
+   POPUP
+
+========================================================= */
+
+
+
+const modal =
+
+document.getElementById(
+
+"rcMemberModal"
+
+);
+
+
+
+const write =
+
+document.getElementById(
+
+"rcWriteReview"
+
+);
+
+
+
+const close =
+
+document.getElementById(
+
+"rcMemberClose"
+
+);
+
+
+
+const confirm =
+
+document.getElementById(
+
+"rcMemberConfirm"
+
+);
+
+
+
+
+
+function openModal(){
+
+
+
+modal.classList.add(
+
+"show"
+
+);
+
+
+
+document.body.style.overflow =
+
+"hidden";
+
+
+
+}
+
+
+
+
+
+function closeModal(){
+
+
+
+modal.classList.remove(
+
+"show"
+
+);
+
+
+
+document.body.style.overflow =
+
+"";
+
+
+
+}
+
+
+
+
+
+write.addEventListener(
+
+"click",
+
+openModal
+
+);
+
+
+
+close.addEventListener(
+
+"click",
+
+closeModal
+
+);
+
+
+
+confirm.addEventListener(
+
+"click",
+
+closeModal
+
+);
+
+
+
+
+
+modal.addEventListener(
+
+"click",
+
+function(e){
+
+
+
+if(e.target === modal){
+
+closeModal();
+
+}
+
+
+
+}
+
+);
+
+
+
+
+
+document.addEventListener(
+
+"keydown",
+
+function(e){
+
+
+
+if(e.key === "Escape"){
+
+closeModal();
+
+}
+
+
+
+}
+
+);
+
+
+
+
+
+/* =========================================================
+
+   HELPERS
+
+========================================================= */
+
+
+
+function getStars(rating){
+
+
+
+return (
+
+"★".repeat(rating) +
+
+"☆".repeat(5-rating)
+
+);
+
+
+
+}
+
+
+
+
+
+function dateValue(date){
+
+
+
+return Number(
+
+date.replaceAll(".","")
+
+);
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   FILTER
+
+========================================================= */
+
+
+
+function getData(){
+
+
+
+let data =
+
+[...reviews];
+
+
+
+
+
+if(
+
+currentFilter ===
+
+"latest"
+
+){
+
+
+
+data.sort(
+
+(a,b) =>
+
+dateValue(b.date) -
+
+dateValue(a.date)
+
+);
+
+
+
+}
+
+
+
+
+
+if(
+
+currentFilter ===
+
+"rating"
+
+){
+
+
+
+data.sort(
+
+(a,b) => {
+
+
+
+if(
+
+b.rating !==
+
+a.rating
+
+){
+
+
+
+return (
+
+b.rating -
+
+a.rating
+
+);
+
+
+
+}
+
+
+
+return (
+
+dateValue(b.date) -
+
+dateValue(a.date)
+
+);
+
+
+
+}
+
+);
+
+
+
+}
+
+
+
+
+
+if(
+
+currentFilter ===
+
+"photo"
+
+){
+
+
+
+data =
+
+data.filter(
+
+item =>
+
+Boolean(item.photo)
+
+);
+
+
+
+data.sort(
+
+(a,b) =>
+
+dateValue(b.date) -
+
+dateValue(a.date)
+
+);
+
+
+
+}
+
+
+
+
+
+return data;
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   RENDER
+
+========================================================= */
+
+
+
+function renderReviews(){
+
+
+
+const data =
+
+getData();
+
+
+
+const start =
+
+(currentPage-1) *
+
+perPage;
+
+
+
+const pageData =
+
+data.slice(
+
+start,
+
+start+perPage
+
+);
+
+
+
+
+
+listEl.innerHTML =
+
+pageData.map(
+
+review => `
+
+
+
+<article
+
+class="rc-review-item"
+
+>
+
+
+
+<div
+
+class="rc-review-rating"
+
+>
+
+
+
+<span
+
+class="rc-review-stars"
+
+>
+
+${getStars(review.rating)}
+
+</span>
+
+
+
+<span
+
+class="rc-review-rating-label"
+
+>
+
+${review.rating}.0
+
+</span>
+
+
+
+</div>
+
+
+
+
+
+<div
+
+class="rc-review-content"
+
+>
+
+
+
+<div
+
+class="rc-review-content-top"
+
+>
+
+
+
+${
+
+review.photo
+
+?
+
+`
+
+<span
+
+class="rc-review-photo-badge"
+
+>
+
+PHOTO
+
+</span>
+
+`
+
+:
+
+""
+
+}
+
+
+
+<h3
+
+class="rc-review-subject"
+
+>
+
+${review.subject}
+
+</h3>
+
+
+
+</div>
+
+
+
+
+
+<p
+
+class="rc-review-description"
+
+>
+
+${review.description}
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div
+
+class="rc-review-meta"
+
+>
+
+
+
+<span
+
+class="rc-review-user"
+
+>
+
+${review.user}
+
+</span>
+
+
+
+<span>
+
+${review.date}
+
+</span>
+
+
+
+</div>
+
+
+
+
+
+${
+
+review.photo
+
+?
+
+`
+
+<div
+
+class="rc-review-thumb"
+
+>
+
+
+
+<img
+
+src="${review.photo}"
+
+alt=""
+
+loading="lazy"
+
+>
+
+
+
+</div>
+
+`
+
+:
+
+`
+
+<div
+
+class="rc-review-thumb-empty"
+
+></div>
+
+`
+
+}
+
+
+
+</article>
+
+
+
+`
+
+).join("");
+
+
+
+
+
+listEl
+
+.querySelectorAll(
+
+".rc-review-item"
+
+)
+
+.forEach(
+
+item => {
+
+
+
+item.addEventListener(
+
+"click",
+
+openModal
+
+);
+
+
+
+}
+
+);
+
+
+
+
+
+renderPagination(
+
+data.length
+
+);
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   PAGINATION
+
+========================================================= */
+
+
+
+function renderPagination(total){
+
+
+
+const totalPages =
+
+Math.ceil(
+
+total/perPage
+
+);
+
+
+
+
+
+if(totalPages<=1){
+
+
+
+paginationEl.innerHTML =
+
+"";
+
+
+
+return;
+
+
+
+}
+
+
+
+
+
+let startPage =
+
+Math.max(
+
+1,
+
+currentPage-2
+
+);
+
+
+
+
+
+let endPage =
+
+Math.min(
+
+totalPages,
+
+startPage+4
+
+);
+
+
+
+
+
+if(
+
+endPage-startPage<4
+
+){
+
+
+
+startPage =
+
+Math.max(
+
+1,
+
+endPage-4
+
+);
+
+
+
+}
+
+
+
+
+
+let html = `
+
+
+
+<button
+
+type="button"
+
+data-page="${currentPage-1}"
+
+${currentPage===1 ? "disabled" : ""}
+
+>
+
+‹
+
+</button>
+
+
+
+`;
+
+
+
+
+
+for(
+
+let i=startPage;
+
+i<=endPage;
+
+i++
+
+){
+
+
+
+html += `
+
+
+
+<button
+
+type="button"
+
+data-page="${i}"
+
+class="${i===currentPage ? "active" : ""}"
+
+>
+
+${i}
+
+</button>
+
+
+
+`;
+
+
+
+}
+
+
+
+
+
+html += `
+
+
+
+<button
+
+type="button"
+
+data-page="${currentPage+1}"
+
+${currentPage===totalPages ? "disabled" : ""}
+
+>
+
+›
+
+</button>
+
+
+
+`;
+
+
+
+
+
+paginationEl.innerHTML =
+
+html;
+
+
+
+
+
+paginationEl
+
+.querySelectorAll(
+
+"button[data-page]"
+
+)
+
+.forEach(
+
+button => {
+
+
+
+button.addEventListener(
+
+"click",
+
+function(){
+
+
+
+if(this.disabled){
+
+return;
+
+}
+
+
+
+currentPage =
+
+Number(
+
+this.dataset.page
+
+);
+
+
+
+renderReviews();
+
+
+
+
+
+const y =
+
+document
+
+.querySelector(
+
+".rc-review-toolbar"
+
+)
+
+.getBoundingClientRect()
+
+.top +
+
+window.pageYOffset -
+
+110;
+
+
+
+
+
+window.scrollTo({
+
+top:y,
+
+behavior:"smooth"
+
+});
+
+
+
+}
+
+);
+
+
+
+}
+
+);
+
+
+
+}
+
+
+
+
+
+/* =========================================================
+
+   FILTER BUTTON
+
+========================================================= */
+
+
+
+document
+
+.querySelectorAll(
+
+".rc-review-filter button"
+
+)
+
+.forEach(
+
+button => {
+
+
+
+button.addEventListener(
+
+"click",
+
+function(){
+
+
+
+document
+
+.querySelectorAll(
+
+".rc-review-filter button"
+
+)
+
+.forEach(
+
+btn =>
+
+btn.classList.remove(
+
+"active"
+
+)
+
+);
+
+
+
+
+
+this.classList.add(
+
+"active"
+
+);
+
+
+
+
+
+currentFilter =
+
+this.dataset.filter;
+
+
+
+currentPage =
+
+1;
+
+
+
+renderReviews();
+
+
+
+}
+
+);
+
+
+
+}
+
+);
+
+
+
+
+
+/* =========================================================
+
+   COUNT
+
+========================================================= */
+
+
+
+document
+
+.getElementById(
+
+"rcReviewCount"
+
+)
+
+.textContent =
+
+reviews.length +
+
+" reviews";
+
+
+
+
+
+/* =========================================================
+
+   AVERAGE
+
+========================================================= */
+
+
+
+const average =
+
+reviews.reduce(
+
+(sum,item) =>
+
+sum+item.rating,
+
+0
+
+) /
+
+reviews.length;
+
+
+
+
+
+document
+
+.getElementById(
+
+"rcAverageScore"
+
+)
+
+.textContent =
+
+average.toFixed(1);
+
+
+
+
+
+/* INIT */
+
+
+
+renderReviews();
+
+
+
+})();
+
+</script>
