@@ -232,3 +232,11 @@ body.subpage main.rc-qna-main .rc-qna-title{font-size:clamp(29px,3vw,38px)!impor
 body.subpage main.rc-qna-main .rc-qna-intro strong{font-weight:500!important}
 body.subpage main.rc-qna-main .rc-qna-question-text{font-size:15px!important;font-weight:400!important}
 @media(max-width:767px){body.subpage main.rc-qna-main .rc-qna-title{font-size:30px!important}body.subpage main.rc-qna-main .rc-qna-question-text{font-size:14px!important}}
+
+/* Contact page — avoid Imweb wrapper spacing; retain original layout and copy */
+body.subpage main.rc-contact-main{display:block!important;max-width:none!important;min-height:0!important;padding:0!important;background:#fff!important}
+body.subpage main.rc-contact-main .rc-contact{left:auto!important;transform:none!important;margin-inline:auto!important}
+body.subpage main.rc-contact-main .rc-contact-title{font-size:clamp(30px,3vw,38px)!important;font-weight:500!important;line-height:1.25!important}
+body.subpage main.rc-contact-main .rc-contact-type-content h3{font-size:15px!important;font-weight:400!important}
+body.subpage main.rc-contact-main .rc-contact-info-main{font-size:clamp(17px,2vw,23px)!important;overflow-wrap:anywhere}
+@media(max-width:767px){body.subpage main.rc-contact-main .rc-contact-title{font-size:30px!important}}
