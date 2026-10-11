@@ -59,3 +59,23 @@ body.subpage .site-header{min-height:64px}
 .contact h2{font-size:clamp(27px,7vw,36px)!important}
 body.subpage h1,body.subpage .hero h1{font-size:clamp(28px,7vw,36px)!important}
 }
+
+/* Header and footer aligned with original Imweb information (2026-10-11) */
+.site-header .site-brand{font-family:Georgia,'Times New Roman',serif;font-weight:400!important;letter-spacing:.015em;font-size:22px!important}
+.site-brand sup,.site-footer-logo sup{font-family:Georgia,serif;font-size:9px;vertical-align:super;margin-left:4px;letter-spacing:0}
+.site-menu a{font-size:13px!important;letter-spacing:0!important;font-weight:400}
+.site-actions{display:flex;gap:16px;font-size:15px;color:var(--ink);align-items:center}
+.site-footer{background:#fff!important;color:#171717!important;padding:65px 0 50px!important}
+.site-footer .site-shell{max-width:1080px}
+.site-footer-logo{font-family:Georgia,'Times New Roman',serif;font-size:28px;letter-spacing:.025em;color:#bf2236!important}
+.site-footer-tagline{font-size:13px!important;font-weight:600;margin:16px 0 28px!important;color:#111!important}
+.site-business{font-size:13px;line-height:1.7}
+.site-business p{font-size:13px!important;line-height:1.7!important;color:#181818!important;margin:0 0 15px!important}
+.site-business a,.site-legal a{color:inherit}
+.site-legal{margin-top:34px}
+.site-legal p{font-size:11px!important;color:#252525!important;line-height:1.9!important;margin:0 0 4px!important}
+body.subpage .site-footer{background:#fff!important;padding:65px 0 50px!important}
+body.subpage .site-footer p{color:#181818!important}
+body.subpage .site-footer .site-shell{max-width:1080px}
+@media(max-width:980px){.site-menu a{font-size:13px!important}.site-actions{margin-left:auto;margin-right:10px}}
+@media(max-width:640px){.site-header .site-brand{font-size:18px!important}.site-actions{gap:9px}.site-footer{padding:46px 0!important}.site-footer-logo{font-size:23px}.site-business p{font-size:12px!important}.site-legal p{font-size:10px!important}}
