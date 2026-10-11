@@ -82,3 +82,66 @@ body.subpage .site-footer .site-shell{max-width:1080px}
 
 /* Customers Pick: keep the supplied archive layout unmodified inside the shared shell */
 body.subpage main.customer-pick-main{display:block;padding:0!important;min-height:0;background:#fff!important;max-width:none}
+
+/* Homepage migration: original white / wine-red editorial direction */
+.rc-home{font-family:'Noto Sans KR',Pretendard,'Apple SD Gothic Neo',sans-serif;color:#171717;background:#fff}
+.rc-home *{box-sizing:border-box}
+.rc-home .rc-container{width:min(1280px,calc(100% - 64px));margin-inline:auto}
+.rc-home .rc-kicker{font-size:11px;font-weight:500;letter-spacing:.15em;color:#7b1820;margin:0 0 17px}
+.rc-home h1,.rc-home h2,.rc-home h3{font-family:inherit;font-weight:400;color:#171717;letter-spacing:-.035em}
+.rc-home h2{font-size:clamp(25px,2.5vw,36px)!important;line-height:1.45}
+.rc-home h3{font-size:15px;line-height:1.6}
+.rc-home .rc-home-section{padding-top:105px;padding-bottom:110px}
+.rc-home .rc-section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:38px}
+.rc-home .rc-section-head h2{margin:0}
+.rc-home .rc-description{font-size:13px;color:#777;line-height:1.85;margin:12px 0 0}
+.rc-home .rc-more{font-size:11px;color:#777;white-space:nowrap;letter-spacing:.04em}
+.rc-home .rc-text-link{display:inline-flex;align-items:center;justify-content:space-between;gap:52px;font-size:11px;letter-spacing:.06em;border-bottom:1px solid currentColor;padding-bottom:10px}
+.rc-hero{height:min(770px,75vw);min-height:540px;position:relative;color:white;overflow:hidden;background:#a4a09d}
+.rc-hero-track,.rc-hero-slide,.rc-hero-shade{position:absolute;inset:0}
+.rc-hero-slide{background-position:center;background-size:cover;opacity:0;transition:opacity .65s ease}
+.rc-hero-slide.is-active{opacity:1}
+.rc-hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.42),rgba(0,0,0,.04) 75%)}
+.rc-hero .rc-hero-content{position:relative;z-index:2;height:100%;display:flex;justify-content:center;align-items:flex-start;flex-direction:column;padding-top:40px}
+.rc-hero .rc-kicker{color:#fff;font-size:11px}
+.rc-hero h1{color:white;font-size:clamp(31px,4.1vw,56px)!important;line-height:1.37;margin:0 0 23px}
+.rc-hero-content>p:not(.rc-kicker){font-size:15px;line-height:1.95;color:#fff;margin:0 0 35px}
+.rc-hero .rc-text-link{color:white}
+.rc-hero-controls{position:absolute;z-index:3;bottom:30px;right:max(32px,calc((100vw - 1280px)/2));display:flex;gap:22px;align-items:center;font-size:11px;letter-spacing:.09em}
+.rc-hero-controls button,.rc-review-buttons button{background:transparent;border:0;color:inherit;font-size:21px;font-weight:300;cursor:pointer;padding:6px}
+.rc-product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.rc-product-picture{aspect-ratio:1/1;background:#f5f5f5;position:relative;overflow:hidden}
+.rc-product-picture img,.rc-about-media img,.rc-tech-item img,.rc-lab-image img,.rc-review-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.rc-product-card:hover img,.rc-lab-card:hover img{transform:scale(1.025)}
+.rc-soldout{position:absolute;bottom:15px;left:15px;color:#7b1820;background:#fff;padding:4px 9px;font-size:9px;letter-spacing:.08em}
+.rc-product-brand{font-size:10px;color:#888;margin:17px 0 6px}
+.rc-product-card h3{margin:0 0 11px;font-size:14px!important;font-weight:400}
+.rc-price{display:flex;align-items:center;gap:12px}
+.rc-price strong{font-size:15px;font-weight:500;color:#171717}
+.rc-price del{font-size:12px;color:#aaa}
+.rc-about-strip{background:#f8f6f5}
+.rc-about-layout{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:9%;padding-top:85px;padding-bottom:85px}
+.rc-about-copy h2{margin:0 0 24px}
+.rc-about-copy>p:not(.rc-kicker){font-size:14px;color:#666;line-height:2;max-width:460px;margin-bottom:28px}
+.rc-about-media{aspect-ratio:1.18/1;overflow:hidden}
+.rc-review-buttons{display:flex;gap:16px;color:#222}
+.rc-review-scroll{display:flex;gap:18px;overflow:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:18px}
+.rc-review-scroll::-webkit-scrollbar{display:none}
+.rc-review-card{flex:0 0 250px;scroll-snap-align:start;min-width:0}
+.rc-review-photo{aspect-ratio:1/.94;background:#f5f5f5;overflow:hidden}
+.rc-stars{color:#7b1820;font-size:13px;letter-spacing:.05em;margin:16px 0 8px}
+.rc-author{font-size:12px;font-weight:500;margin:0 0 8px}
+.rc-review-text{font-size:12px;line-height:1.8;color:#777;min-height:67px;margin:0}
+.rc-review-tag{font-size:10px;color:#999;letter-spacing:.09em}
+.rc-review-end{display:flex;justify-content:space-between;border-top:1px solid #dedede;padding-top:18px;margin-top:25px;font-size:11px;letter-spacing:.06em;color:#777}
+.rc-tech-band{padding:95px 0 100px;background:#faf9f8}
+.rc-tech-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.rc-tech-item{aspect-ratio:1/1;overflow:hidden;background:#eee}
+.rc-lab-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.rc-lab-image{aspect-ratio:1.25/1;overflow:hidden;background:#f5f5f5;margin-bottom:19px}
+.rc-lab-card .rc-kicker{font-size:9px;margin-bottom:9px}
+.rc-lab-card h3{margin:0 0 10px;font-size:14px!important}
+.rc-lab-card>p:last-child{font-size:12px;color:#888;line-height:1.7;margin:0}
+@media(max-width:980px){.rc-home .rc-container{width:calc(100% - 44px)}.rc-tech-grid,.rc-lab-grid{grid-template-columns:repeat(2,1fr)}.rc-about-layout{gap:5%}.rc-review-card{flex-basis:230px}}
+@media(max-width:640px){.rc-home .rc-container{width:calc(100% - 40px)}.rc-hero{min-height:560px;height:75svh;max-height:720px}.rc-hero .rc-hero-content{padding-top:24px}.rc-hero h1{font-size:clamp(28px,7.3vw,39px)!important}.rc-hero-content>p:not(.rc-kicker){font-size:12px}.rc-hero-controls{right:20px;bottom:20px}.rc-home .rc-home-section{padding-top:65px;padding-bottom:75px}.rc-home .rc-section-head{margin-bottom:26px;gap:15px}.rc-home h2{font-size:clamp(23px,6vw,30px)!important}.rc-home .rc-more{font-size:9px}.rc-product-grid{gap:20px;grid-template-columns:1fr}.rc-product-picture{aspect-ratio:1.13/1}.rc-about-layout{grid-template-columns:1fr;padding-top:65px;padding-bottom:65px;gap:32px}.rc-about-media{aspect-ratio:1.25/1}.rc-review-card{flex-basis:68vw}.rc-tech-band{padding:65px 0}.rc-tech-grid,.rc-lab-grid{gap:12px}.rc-lab-card h3{font-size:12px!important}.rc-lab-card>p:last-child{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.rc-hero-slide,.rc-product-picture img,.rc-lab-image img{transition:none}}
