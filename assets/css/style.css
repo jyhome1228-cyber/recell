@@ -145,3 +145,43 @@ body.subpage main.customer-pick-main{display:block;padding:0!important;min-heigh
 @media(max-width:980px){.rc-home .rc-container{width:calc(100% - 44px)}.rc-tech-grid,.rc-lab-grid{grid-template-columns:repeat(2,1fr)}.rc-about-layout{gap:5%}.rc-review-card{flex-basis:230px}}
 @media(max-width:640px){.rc-home .rc-container{width:calc(100% - 40px)}.rc-hero{min-height:560px;height:75svh;max-height:720px}.rc-hero .rc-hero-content{padding-top:24px}.rc-hero h1{font-size:clamp(28px,7.3vw,39px)!important}.rc-hero-content>p:not(.rc-kicker){font-size:12px}.rc-hero-controls{right:20px;bottom:20px}.rc-home .rc-home-section{padding-top:65px;padding-bottom:75px}.rc-home .rc-section-head{margin-bottom:26px;gap:15px}.rc-home h2{font-size:clamp(23px,6vw,30px)!important}.rc-home .rc-more{font-size:9px}.rc-product-grid{gap:20px;grid-template-columns:1fr}.rc-product-picture{aspect-ratio:1.13/1}.rc-about-layout{grid-template-columns:1fr;padding-top:65px;padding-bottom:65px;gap:32px}.rc-about-media{aspect-ratio:1.25/1}.rc-review-card{flex-basis:68vw}.rc-tech-band{padding:65px 0}.rc-tech-grid,.rc-lab-grid{gap:12px}.rc-lab-card h3{font-size:12px!important}.rc-lab-card>p:last-child{font-size:11px}}
 @media(prefers-reduced-motion:reduce){.rc-hero-slide,.rc-product-picture img,.rc-lab-image img{transition:none}}
+
+/* About page — original Recelléclore editorial styling */
+.rc-about-page{background:#fff;color:#171717;font-family:'Noto Sans KR',Pretendard,sans-serif;font-size:14px;line-height:1.9}
+.rc-about-page *{box-sizing:border-box}
+.rc-about-page .rca-container{width:min(1180px,calc(100% - 64px));margin-inline:auto}
+.rc-about-page .rca-label{font-size:10px;letter-spacing:.16em;color:#7b1820;font-weight:500}
+.rc-about-page h1,.rc-about-page h2,.rc-about-page h3{font-weight:400;letter-spacing:-.035em;color:#171717}
+.rc-about-page h2{font-size:clamp(24px,2.45vw,35px)!important;line-height:1.48}
+.rc-about-page p{font-size:13px;line-height:2;color:#666}
+.rca-intro{position:relative}
+.rca-wide{height:min(720px,70vw);min-height:480px;position:relative;background:#d6d0cc;overflow:hidden}
+.rca-wide>img{width:100%;height:100%;object-fit:cover;display:block}
+.rca-intro-overlay{position:absolute;left:max(32px,calc((100% - 1180px)/2));top:50%;transform:translateY(-50%);color:white;text-shadow:0 1px 13px #0004;max-width:680px}
+.rca-intro-overlay span{font-size:11px;letter-spacing:.16em}
+.rca-intro-overlay h1{font-size:clamp(30px,3.9vw,51px)!important;line-height:1.4;color:white;margin:20px 0}
+.rca-statement{padding-top:110px;padding-bottom:125px;text-align:center}
+.rca-statement h2{margin:26px auto 33px;max-width:940px}
+.rca-statement p{max-width:780px;margin:17px auto}
+.rca-philosophy{display:grid;grid-template-columns:1fr 1fr;gap:9%;align-items:center;padding-bottom:125px}
+.rca-picture{aspect-ratio:1/1.08;overflow:hidden;background:#f6f4f2}
+.rca-picture img,.rca-value-image img,.rca-closing-image img{display:block;width:100%;height:100%;object-fit:cover}
+.rca-copy h2{margin:20px 0 27px}
+.rca-copy p{margin:16px 0}
+.rca-values{background:#f9f8f7;padding:95px 0 115px}
+.rca-section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:35px}
+.rca-section-head h2{margin:0}
+.rca-value-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}
+.rca-value-image{aspect-ratio:1.15/1;overflow:hidden;background:#eee}
+.rca-value-grid h3{font-size:17px!important;line-height:1.5;margin:23px 0 12px}
+.rca-value-grid p{font-size:12px;line-height:1.95;margin:0}
+.rca-closing{position:relative;min-height:500px;background:#eee;overflow:hidden}
+.rca-closing-image{position:absolute;inset:0}
+.rca-closing-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#17171780,#17171704)}
+.rca-closing-copy{position:relative;color:white;max-width:1180px;width:calc(100% - 64px);margin:auto;padding:130px 0}
+.rca-closing-copy h2,.rca-closing-copy p{color:white}
+.rca-closing-copy h2{margin:22px 0 8px}
+.rca-closing-copy .rca-label{color:white}
+.rca-closing-copy a{display:inline-flex;gap:60px;margin-top:28px;padding-bottom:9px;border-bottom:1px solid white;font-size:11px;letter-spacing:.05em}
+body.subpage main.rc-about-page{display:block;max-width:none;min-height:0;padding:0!important;background:#fff}
+@media(max-width:760px){.rc-about-page .rca-container{width:calc(100% - 40px)}.rca-wide{min-height:480px;height:70vh}.rca-intro-overlay{left:22px;right:22px}.rca-intro-overlay h1{font-size:clamp(26px,7vw,36px)!important}.rca-statement{padding-top:70px;padding-bottom:85px}.rca-statement h2{font-size:clamp(22px,5.6vw,29px)!important}.rca-philosophy{grid-template-columns:1fr;gap:32px;padding-bottom:85px}.rca-picture{aspect-ratio:1.2/1}.rca-values{padding:70px 0 80px}.rca-value-grid{grid-template-columns:1fr;gap:36px}.rca-value-image{aspect-ratio:1.45/1}.rca-value-grid h3{margin:14px 0 7px}.rca-closing{min-height:410px}.rca-closing-copy{width:calc(100% - 40px);padding:115px 0}}
