@@ -185,3 +185,32 @@ body.subpage main.customer-pick-main{display:block;padding:0!important;min-heigh
 .rca-closing-copy a{display:inline-flex;gap:60px;margin-top:28px;padding-bottom:9px;border-bottom:1px solid white;font-size:11px;letter-spacing:.05em}
 body.subpage main.rc-about-page{display:block;max-width:none;min-height:0;padding:0!important;background:#fff}
 @media(max-width:760px){.rc-about-page .rca-container{width:calc(100% - 40px)}.rca-wide{min-height:480px;height:70vh}.rca-intro-overlay{left:22px;right:22px}.rca-intro-overlay h1{font-size:clamp(26px,7vw,36px)!important}.rca-statement{padding-top:70px;padding-bottom:85px}.rca-statement h2{font-size:clamp(22px,5.6vw,29px)!important}.rca-philosophy{grid-template-columns:1fr;gap:32px;padding-bottom:85px}.rca-picture{aspect-ratio:1.2/1}.rca-values{padding:70px 0 80px}.rca-value-grid{grid-template-columns:1fr;gap:36px}.rca-value-image{aspect-ratio:1.45/1}.rca-value-grid h3{margin:14px 0 7px}.rca-closing{min-height:410px}.rca-closing-copy{width:calc(100% - 40px);padding:115px 0}}
+
+/* Shop — original minimal white editorial catalog */
+body.subpage main.rc-shop-page{padding:0!important;background:#fff;min-height:0;max-width:none}
+.rc-shop-page{font-family:'Noto Sans KR',Pretendard,sans-serif;color:#171717;background:#fff}
+.rc-shop-page *{box-sizing:border-box}
+.rc-shop-container{width:min(1280px,calc(100% - 64px));margin:auto}
+.rc-shop-heading{padding:88px 0 69px;border-bottom:1px solid #e9e9e9}
+.rc-shop-eyebrow,.rc-shop-top,.rc-shop-brand,.rc-shop-note>span{display:block;font-size:10px;letter-spacing:.13em;color:#7b1820}
+.rc-shop-heading h1{font-size:clamp(31px,3.2vw,43px)!important;letter-spacing:-.04em;font-weight:400;line-height:1.3;margin:16px 0}
+.rc-shop-heading p{font-size:13px;color:#777;line-height:1.8;margin:0}
+.rc-shop-list{padding:48px 0 110px}
+.rc-shop-top{display:flex;justify-content:space-between;gap:16px;margin-bottom:26px;color:#888}
+.rc-shop-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.rc-shop-product{min-width:0}
+.rc-shop-image{position:relative;background:#f6f6f6;aspect-ratio:1;overflow:hidden}
+.rc-shop-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.rc-shop-product:hover img{transform:scale(1.02)}
+.rc-shop-badge{position:absolute;left:14px;bottom:14px;background:#fff;color:#7b1820;font-size:9px;letter-spacing:.08em;padding:6px 11px}
+.rc-shop-info{padding:20px 2px 0}
+.rc-shop-brand{font-size:10px;color:#999;margin-bottom:8px}
+.rc-shop-info h2{font-size:14px!important;font-weight:400;line-height:1.65;letter-spacing:-.02em;margin:0 0 12px}
+.rc-shop-prices{display:flex;gap:12px;align-items:baseline}
+.rc-shop-prices strong{font-weight:500;font-size:15px}.rc-shop-prices del{color:#aaa;font-size:12px}
+.rc-shop-state{font-size:11px;color:#999;line-height:1.7;margin:13px 0 0}
+.rc-shop-note{border-top:1px solid #dedede;margin-top:82px;padding-top:26px}
+.rc-shop-note p{font-size:12px;line-height:1.9;color:#888;max-width:700px;margin:12px 0 20px}
+.rc-shop-note a{display:inline-flex;gap:32px;border-bottom:1px solid #7b1820;color:#7b1820;font-size:11px;padding-bottom:8px}
+@media(max-width:850px){.rc-shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px}}
+@media(max-width:600px){.rc-shop-container{width:calc(100% - 40px)}.rc-shop-heading{padding:60px 0 49px}.rc-shop-heading h1{font-size:32px!important}.rc-shop-list{padding:30px 0 70px}.rc-shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 11px}.rc-shop-info{padding-top:13px}.rc-shop-info h2{font-size:12px!important}.rc-shop-prices{flex-wrap:wrap;gap:3px 8px}.rc-shop-prices strong{font-size:13px}.rc-shop-prices del{font-size:11px}.rc-shop-badge{left:8px;bottom:8px;font-size:8px;padding:4px 8px}.rc-shop-note{margin-top:55px}}
