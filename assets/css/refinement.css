@@ -1,0 +1,82 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+:root{--rc-width:1280px;--rc-gutter:32px;--rc-wine:#7b1820;--rc-ink:#171717}
+html{scroll-padding-top:88px}
+html body{font-family:Pretendard,'Apple SD Gothic Neo',sans-serif!important;letter-spacing:-.02em!important;color:var(--rc-ink)}
+html body :is(h1,h2,h3,p,a,button,span,strong,div,summary){font-family:Pretendard,'Apple SD Gothic Neo',sans-serif;letter-spacing:-.02em}
+html body .site-shell,html body .container,html body .rc-home .rc-container,html body .rc-about-page .rca-container,html body .rc-shop-container,html body .rc-reviews-main .re-review-wrap,html body .rc-blog-review{max-width:var(--rc-width)!important;width:calc(100% - 64px)!important;margin-left:auto!important;margin-right:auto!important}
+html body .site-header{position:sticky!important;inset:auto!important;top:0!important;z-index:100!important;min-height:84px!important;background:#fff!important;border-bottom:1px solid #eee!important;backdrop-filter:blur(14px);box-shadow:none!important}
+html body .site-header-inner{width:calc(100% - 64px)!important;max-width:var(--rc-width)!important;height:84px!important;min-height:84px!important;display:grid!important;grid-template-columns:minmax(210px,1fr) auto minmax(90px,1fr);gap:25px;align-items:center}
+html body .site-brand{font-family:Georgia,serif!important;font-size:25px!important;font-weight:400!important;letter-spacing:-.018em!important;color:#171717!important}
+html body .site-brand sup{font-size:9px!important}
+html body .site-menu{display:flex;align-items:center;gap:clamp(14px,1.6vw,30px)!important;flex-wrap:nowrap}
+html body .site-menu a{font-family:Pretendard,sans-serif!important;font-size:14px!important;font-weight:500!important;color:#222!important;letter-spacing:-.02em!important}
+html body .site-actions{justify-self:end;display:flex;gap:19px;color:#222!important}
+html body .site-actions svg{width:19px;height:19px}
+html body .site-footer{padding:64px 0 52px!important;background:#fff!important;border-top:1px solid #e9e9e9!important}
+html body .site-footer .site-shell{max-width:var(--rc-width)!important;width:calc(100% - 64px)!important}
+html body .site-footer-logo{font-family:Georgia,serif!important;font-size:26px!important;font-weight:400!important}
+html body .site-footer-tagline{font-size:14px!important;font-weight:600!important;margin:17px 0 22px!important}
+html body .site-business p{font-size:12px!important;line-height:1.9!important}
+html body .site-legal p{font-size:11px!important;line-height:1.85!important}
+html body :is(.rc-home,.rc-about-page,.rc-shop-page,.rc-reviews-main,.rc-qna,.rc-contact,.rc-blog-review){font-family:Pretendard,'Apple SD Gothic Neo',sans-serif!important;letter-spacing:-.02em!important}
+html body :is(.rc-home,.rc-about-page,.rc-shop-page,.rc-reviews-main,.rc-qna,.rc-contact,.rc-blog-review) :is(p,span,a,strong,h1,h2,h3,button){font-family:Pretendard,'Apple SD Gothic Neo',sans-serif!important;letter-spacing:-.02em!important}
+html body .rc-home h2,html body .rc-about-page h2{font-size:clamp(27px,2.5vw,36px)!important;font-weight:600!important;line-height:1.4!important}
+html body :is(.rc-kicker,.rca-label,.rc-shop-eyebrow,.rc-qna-eyebrow,.rc-contact-eyebrow,.rc-contact-section-label,.rc-qna-head-label){font-size:12px!important;font-weight:600!important;letter-spacing:.07em!important}
+html body .rc-home .rc-container{max-width:var(--rc-width)!important}
+html body.home-page .site-header{position:absolute!important;top:0!important;left:0!important;right:0!important;background:transparent!important;border-bottom:1px solid #ffffff33!important;backdrop-filter:none}
+html body.home-page .site-header :is(.site-brand,.site-menu a,.site-actions){color:#fff!important}
+html body.home-page .site-header svg{stroke:#fff}
+html body.home-page .site-menu-toggle span{background:#fff!important}
+html body.home-page .rc-hero{height:min(840px,100svh)!important;min-height:620px!important}
+html body.home-page .rc-hero .rc-hero-content{padding-top:110px!important}
+html body.home-page .rc-hero h1{font-size:clamp(38px,4vw,55px)!important;font-weight:600!important}
+html body.home-page .rc-hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.52),rgba(0,0,0,.12) 75%)!important}
+html body.subpage main.rc-qna-main{padding:0!important;background:#fff!important}
+html body.subpage .rc-qna{left:auto!important;transform:none!important;width:calc(100% - 64px)!important;max-width:var(--rc-width)!important;margin:0 auto!important;padding:74px 0 105px!important}
+html body.subpage .rc-qna-hero{column-gap:70px!important;padding-bottom:48px!important;align-items:center!important}
+html body.subpage .rc-qna-title{font-size:38px!important;line-height:1.2!important;font-weight:600!important}
+html body.subpage .rc-qna-intro strong{font-size:21px!important;font-weight:600!important;line-height:1.55!important}
+html body.subpage .rc-qna-intro p{font-size:15px!important;line-height:1.75!important}
+html body.subpage .rc-qna-content{padding-top:37px!important}
+html body.subpage .rc-qna-head{margin-bottom:18px!important}
+html body.subpage .rc-qna-question{min-height:74px!important;padding:18px 4px!important;grid-template-columns:55px 120px minmax(0,1fr) 24px!important;column-gap:22px!important}
+html body.subpage .rc-qna-question-text{font-size:15px!important;font-weight:500!important}
+html body.subpage .rc-qna-answer-content{grid-template-columns:55px 120px minmax(0,1fr) 24px!important;column-gap:22px!important}
+html body.subpage .rc-qna-answer-text{font-size:14px!important}
+html body.subpage .rc-qna-contact{margin-top:65px!important}
+html body.subpage .rc-contact{left:auto!important;transform:none!important;width:calc(100% - 64px)!important;max-width:var(--rc-width)!important;margin:0 auto!important;padding:74px 0 105px!important}
+html body.subpage .rc-contact-hero{padding-bottom:48px!important}
+html body.subpage .rc-contact-title{font-size:38px!important;font-weight:600!important}
+html body.subpage .rc-contact-intro strong{font-size:21px!important;font-weight:600!important}
+html body.subpage .rc-contact-intro p{font-size:15px!important}
+html body.subpage .rc-contact-types{padding:42px 0 64px!important}
+html body.subpage button.rc-contact-type{min-height:106px!important}
+html body.subpage .rc-contact-type-content h3{font-size:16px!important;font-weight:600!important}
+html body.subpage .rc-contact-info-main{font-size:22px!important}
+@media(max-width:1024px){
+html body .site-header-inner{display:flex!important;justify-content:space-between!important;min-height:76px!important;height:76px!important}
+html body .site-header{min-height:76px!important}
+html body .site-menu-toggle{display:block!important}
+html body .site-menu,html body.subpage .site-menu{display:none!important;position:absolute;top:100%;left:0;right:0;z-index:200;flex-direction:column!important;align-items:stretch!important;background:#fff;padding:20px 32px!important;border-bottom:1px solid #ddd}
+html body .site-menu.is-open,html body.subpage .site-menu.is-open{display:flex!important}
+html body.home-page .site-menu.is-open{background:#171717eb!important}
+html body.home-page .site-menu.is-open a{color:#fff!important}
+html body .site-actions{margin-left:auto}
+}
+@media(max-width:767px){
+html body .site-shell,html body .container,html body .rc-home .rc-container,html body .rc-about-page .rca-container,html body .rc-shop-container,html body .rc-reviews-main .re-review-wrap,html body .rc-blog-review{width:calc(100% - 40px)!important}
+html body .site-header-inner,html body .site-footer .site-shell{width:calc(100% - 40px)!important}
+html body .site-header-inner{min-height:68px!important;height:68px!important}
+html body .site-header{min-height:68px!important}
+html body .site-brand{font-size:20px!important}
+html body .site-footer{padding:45px 0!important}
+html body.home-page .rc-hero{height:80svh!important;min-height:550px!important}
+html body.home-page .rc-hero h1{font-size:clamp(30px,7.8vw,40px)!important}
+html body.subpage .rc-qna,html body.subpage .rc-contact{width:calc(100% - 40px)!important;padding:48px 0 75px!important}
+html body.subpage .rc-qna-hero,html body.subpage .rc-contact-hero{padding-bottom:33px!important}
+html body.subpage .rc-qna-title,html body.subpage .rc-contact-title{font-size:30px!important}
+html body.subpage .rc-qna-intro strong,html body.subpage .rc-contact-intro strong{font-size:17px!important}
+html body.subpage .rc-qna-question{min-height:0!important;padding:19px 34px 19px 0!important;display:block!important}
+html body.subpage .rc-qna-question-text{font-size:14px!important}
+html body.subpage .rc-qna-answer-content{display:block!important}
+}
