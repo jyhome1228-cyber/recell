@@ -282,3 +282,26 @@ html body .rc-tech-grid{gap:16px!important}
 /* Hide diagonal arrow glyphs on existing CTA layouts without disabling navigation */
 html body :is(.rc-text-link,.rca-closing-copy a,.rc-detail-links a,.rc-shop-note a,.rc-more) > span{font-size:0!important}
 html body :is(.rc-text-link,.rca-closing-copy a,.rc-detail-links a,.rc-shop-note a,.rc-more) > span::before{content:none!important}
+
+/* Official original SVG logo / cohesive header and footer */
+html body .site-header .site-header-inner{max-width:1280px!important}
+html body .site-header .site-brand{display:inline-flex!important;align-items:center!important;justify-self:start;min-width:0;line-height:1!important;font-size:0!important;white-space:nowrap}
+html body .site-header .site-brand .site-logo-image{display:block!important;width:239px!important;max-width:100%!important;height:auto!important;max-height:34px;object-fit:contain;filter:brightness(0)!important}
+html body.home-page .site-header:not(.is-scrolled) .site-brand .site-logo-image{filter:none!important}
+html body.home-page .site-header.is-scrolled .site-brand .site-logo-image{filter:brightness(0)!important}
+html body .site-footer .site-footer-logo{display:inline-flex!important;align-items:center!important;font-size:0!important;line-height:1!important}
+html body .site-footer .site-footer-logo .site-logo-image{display:block!important;width:239px!important;max-width:100%!important;height:auto!important;object-fit:contain;filter:brightness(0)!important}
+html body .site-footer .site-shell{width:calc(100% - 64px)!important;max-width:1280px!important}
+html body .site-footer .site-footer-tagline{margin-top:18px!important}
+html body .site-footer .site-business{margin-top:20px!important}
+html body .site-footer .site-legal{margin-top:30px!important;padding-top:20px!important;border-top:1px solid #ececec}
+html body .site-header .site-menu{justify-content:center}
+html body .rc-tech-band .rc-tech-caption{display:none!important}
+@media(min-width:1025px){html body .site-header-inner{grid-template-columns:minmax(239px,1fr) auto minmax(100px,1fr)!important;column-gap:35px!important}}
+@media(max-width:1024px){html body .site-header .site-brand .site-logo-image{width:215px!important}html body .site-header .site-menu{justify-content:flex-start}}
+@media(max-width:767px){
+html body .site-header .site-brand .site-logo-image{width:185px!important;max-height:28px!important}
+html body .site-footer .site-footer-logo .site-logo-image{width:215px!important}
+html body .site-footer .site-shell{width:calc(100% - 40px)!important}
+}
+@media(max-width:380px){html body .site-header .site-brand .site-logo-image{width:160px!important}}
