@@ -268,3 +268,17 @@ html body :is(.rc-hero .rc-text-link,.rca-closing-copy a){color:#fff!important;b
 html body :is(.rc-hero .rc-text-link,.rca-closing-copy a):hover{background:#fff!important;color:#7b1820!important;border-color:#fff!important}
 html body .rca-closing-copy a{margin-top:24px!important}
 @media(max-width:767px){html body :is(.rc-text-link,.rca-closing-copy a,.rc-detail-back,.rc-detail-links a,.rc-lab-copy a,.rc-shop-note a,.rc-more){min-height:40px;min-width:135px;padding:10px 15px!important;font-size:11px!important;gap:14px!important}}
+
+/* TECH: static editorial image set, no interaction */
+html body .rc-tech-band{background:#f8f7f6!important;padding:88px 0 95px!important}
+html body .rc-tech-band .rc-section-head{align-items:end!important;margin-bottom:30px!important}
+html body .rc-tech-band h2{font-size:clamp(26px,2.6vw,37px)!important;font-weight:500!important;line-height:1.45!important}
+html body .rc-tech-caption{font-size:11px;color:#999;letter-spacing:.06em;white-space:nowrap}
+html body .rc-tech-item{display:block;cursor:default!important;pointer-events:none!important;overflow:hidden!important;aspect-ratio:1/1!important}
+html body .rc-tech-item img{transform:none!important;transition:none!important;object-fit:cover}
+html body .rc-tech-item:hover img{transform:none!important}
+html body .rc-tech-grid{gap:16px!important}
+@media(max-width:767px){html body .rc-tech-band{padding:62px 0 70px!important}html body .rc-tech-caption{display:none}html body .rc-tech-grid{gap:10px!important}}
+/* Hide diagonal arrow glyphs on existing CTA layouts without disabling navigation */
+html body :is(.rc-text-link,.rca-closing-copy a,.rc-detail-links a,.rc-shop-note a,.rc-more) > span{font-size:0!important}
+html body :is(.rc-text-link,.rca-closing-copy a,.rc-detail-links a,.rc-shop-note a,.rc-more) > span::before{content:none!important}
