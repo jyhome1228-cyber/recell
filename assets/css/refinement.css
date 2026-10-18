@@ -323,3 +323,27 @@ html body .site-footer .site-legal{display:block!important;border-top:1px solid 
 html body .site-footer .site-legal p{color:#999!important;font-size:10px!important;font-weight:400!important;line-height:1.8!important;margin:0 0 5px!important;letter-spacing:-.02em!important}
 @media(max-width:900px){html body .site-footer-top{grid-template-columns:1fr 1fr!important;row-gap:36px!important}html body .site-footer-identity{grid-column:1/-1}}
 @media(max-width:600px){html body .site-footer{padding:43px 0 28px!important}html body .site-footer>.site-shell{width:calc(100% - 40px)!important}html body .site-footer-top{grid-template-columns:1fr!important;row-gap:24px!important;padding-bottom:29px!important}html body .site-footer-identity{grid-column:auto}html body .site-footer .site-footer-logo .site-logo-image{width:210px!important}html body .site-footer .site-footer-tagline{margin-top:12px!important;font-size:12px!important}html body .site-footer :is(.site-footer-company,.site-footer-contact) .site-footer-heading{margin-bottom:10px!important}html body .site-footer .site-legal p{font-size:9px!important}}
+
+/* Calm interaction system / accessibility / cross-page QA */
+html{scroll-behavior:smooth}
+html body{overflow-x:clip}
+html body :is(.site-menu a,.site-actions a,.site-footer a,.rc-shop-product,.rc-lab-copy a,.rc-detail-links a,.rc-contact-type,.rc-qna-question){transition:color .18s ease,background-color .18s ease,border-color .18s ease,opacity .18s ease}
+html body :is(a,button):focus-visible{outline:2px solid #7b1820!important;outline-offset:3px!important}
+html body .site-menu a:hover{color:#7b1820!important}
+html body.home-page .site-header:not(.is-scrolled) .site-menu a:hover{color:#fff!important;opacity:.78!important}
+html body .rc-shop-product img,html body .rc-lab-image img{transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+html body .rc-shop-product:hover img{transform:scale(1.025)}
+html body .rc-lab-item img{transform:none!important}
+html body .rc-lab-list-header{align-items:center}
+html body .rc-lab-item{min-height:0}
+html body .rc-detail-content{overflow-wrap:break-word}
+html body .site-menu a[aria-current="page"]{color:#7b1820!important}
+@media(max-width:767px){
+html body .site-footer-top{overflow-wrap:anywhere}
+html body .site-business,html body .site-legal{min-width:0}
+html body .rc-contact-modal-box,html body .re-modal-card{max-width:calc(100vw - 24px)!important}
+}
+@media(prefers-reduced-motion:reduce){
+html{scroll-behavior:auto!important}
+html body *,html body *::before,html body *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
