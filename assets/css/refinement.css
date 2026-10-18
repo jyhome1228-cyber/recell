@@ -203,3 +203,7 @@ html body .site-header .site-menu{gap:clamp(19px,1.75vw,30px)!important}
 @media(max-width:1024px){
 html body .site-header .site-menu.is-open a{font-size:16px!important;font-weight:500!important}
 }
+
+/* Header menu refinement: 1px smaller and one weight lighter */
+@media(min-width:1025px){html body .site-header .site-menu a,html body.subpage .site-header .site-menu a,html body.home-page .site-header .site-menu a{font-size:16px!important;font-weight:400!important}}
+@media(max-width:1024px){html body .site-header .site-menu.is-open a{font-size:15px!important;font-weight:400!important}}
