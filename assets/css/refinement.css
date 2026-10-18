@@ -305,3 +305,21 @@ html body .site-footer .site-footer-logo .site-logo-image{width:215px!important}
 html body .site-footer .site-shell{width:calc(100% - 40px)!important}
 }
 @media(max-width:380px){html body .site-header .site-brand .site-logo-image{width:160px!important}}
+
+/* Shared footer grid — logo left, business center, contact right */
+html body .site-footer{background:#fff!important;border-top:1px solid #e9e9e9!important;padding:58px 0 32px!important}
+html body .site-footer>.site-shell{width:calc(100% - 64px)!important;max-width:1280px!important;margin:0 auto!important}
+html body .site-footer-top{display:grid!important;grid-template-columns:minmax(230px,1fr) minmax(300px,1.3fr) minmax(210px,.75fr)!important;column-gap:clamp(28px,4vw,75px)!important;align-items:start!important;padding-bottom:42px!important}
+html body .site-footer-identity{min-width:0}
+html body .site-footer .site-footer-logo{margin:0!important}
+html body .site-footer .site-footer-logo .site-logo-image{width:239px!important}
+html body .site-footer .site-footer-tagline{font-size:13px!important;font-weight:500!important;color:#333!important;margin:20px 0 0!important}
+html body .site-footer :is(.site-footer-company,.site-footer-contact) p{font-size:12px!important;font-weight:400!important;line-height:1.8!important;color:#565656!important;letter-spacing:-.02em!important;margin:0 0 5px!important}
+html body .site-footer :is(.site-footer-company,.site-footer-contact) .site-footer-heading{font-size:13px!important;font-weight:600!important;color:#171717!important;margin:0 0 16px!important}
+html body .site-footer .site-footer-address{margin-top:12px!important;max-width:440px!important;word-break:keep-all}
+html body .site-footer-contact a{text-decoration:none!important;overflow-wrap:anywhere}
+html body .site-footer-contact a:hover{color:#7b1820!important}
+html body .site-footer .site-legal{display:block!important;border-top:1px solid #e9e9e9!important;padding:20px 0 0!important;margin:0!important}
+html body .site-footer .site-legal p{color:#999!important;font-size:10px!important;font-weight:400!important;line-height:1.8!important;margin:0 0 5px!important;letter-spacing:-.02em!important}
+@media(max-width:900px){html body .site-footer-top{grid-template-columns:1fr 1fr!important;row-gap:36px!important}html body .site-footer-identity{grid-column:1/-1}}
+@media(max-width:600px){html body .site-footer{padding:43px 0 28px!important}html body .site-footer>.site-shell{width:calc(100% - 40px)!important}html body .site-footer-top{grid-template-columns:1fr!important;row-gap:24px!important;padding-bottom:29px!important}html body .site-footer-identity{grid-column:auto}html body .site-footer .site-footer-logo .site-logo-image{width:210px!important}html body .site-footer .site-footer-tagline{margin-top:12px!important;font-size:12px!important}html body .site-footer :is(.site-footer-company,.site-footer-contact) .site-footer-heading{margin-bottom:10px!important}html body .site-footer .site-legal p{font-size:9px!important}}
