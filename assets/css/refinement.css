@@ -190,3 +190,16 @@ html body.subpage main.rc-detail .rc-detail-description{font-size:12px!important
 html body.subpage main.rc-detail .rc-detail-price strong{font-size:19px!important}
 html body.subpage main.rc-detail .rc-detail-info h2{font-size:22px!important}
 }
+
+/* Navigation size correction — all pages */
+@media(min-width:1025px){
+html body .site-header .site-menu a,
+html body.subpage .site-header .site-menu a,
+html body.home-page .site-header .site-menu a{
+font-size:17px!important;font-weight:500!important;line-height:1.35!important;letter-spacing:-.02em!important;
+}
+html body .site-header .site-menu{gap:clamp(19px,1.75vw,30px)!important}
+}
+@media(max-width:1024px){
+html body .site-header .site-menu.is-open a{font-size:16px!important;font-weight:500!important}
+}
