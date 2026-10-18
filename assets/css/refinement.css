@@ -257,3 +257,14 @@ html body .rca-closing-copy p{font-size:13px!important}
 .rc-lab-copy p{font-size:11px!important;min-height:0}
 }
 @media(max-width:420px){.rc-lab-grid{grid-template-columns:1fr;gap:35px}.rc-lab-image{aspect-ratio:1.4/1}.rc-lab-copy h2{font-size:16px!important}}
+
+/* Unified rounded outline CTAs — retain wine-red editorial styling */
+html body :is(.rc-text-link,.rca-closing-copy a,.rc-detail-back,.rc-detail-links a,.rc-lab-copy a,.rc-shop-note a,.rc-more,.rc-qna-contact-link,.rc-contact-contact-link){
+display:inline-flex!important;align-items:center!important;justify-content:space-between!important;gap:22px!important;width:auto!important;min-width:158px;min-height:42px;padding:11px 20px!important;border:1px solid currentColor!important;border-radius:9px!important;text-decoration:none!important;font-size:12px!important;font-weight:500!important;line-height:1.45!important;letter-spacing:-.02em!important;transition:background-color .2s ease,color .2s ease,border-color .2s ease!important;
+}
+html body :is(.rc-text-link,.rc-detail-back,.rc-detail-links a,.rc-lab-copy a,.rc-shop-note a,.rc-more){color:#7b1820!important}
+html body :is(.rc-text-link,.rc-detail-back,.rc-detail-links a,.rc-lab-copy a,.rc-shop-note a,.rc-more):hover{background:#7b1820!important;border-color:#7b1820!important;color:#fff!important}
+html body :is(.rc-hero .rc-text-link,.rca-closing-copy a){color:#fff!important;border-color:rgba(255,255,255,.8)!important;background:transparent!important}
+html body :is(.rc-hero .rc-text-link,.rca-closing-copy a):hover{background:#fff!important;color:#7b1820!important;border-color:#fff!important}
+html body .rca-closing-copy a{margin-top:24px!important}
+@media(max-width:767px){html body :is(.rc-text-link,.rca-closing-copy a,.rc-detail-back,.rc-detail-links a,.rc-lab-copy a,.rc-shop-note a,.rc-more){min-height:40px;min-width:135px;padding:10px 15px!important;font-size:11px!important;gap:14px!important}}
