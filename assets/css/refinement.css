@@ -168,3 +168,25 @@ body.subpage main.rc-detail{padding:0!important;max-width:none!important;backgro
 .rc-detail-price strong{font-size:22px}
 .rc-detail-info{margin-top:65px;padding:35px 0 70px}
 }
+
+/* Product detail typography correction: compact sizes, scoped against legacy selectors */
+html body.subpage main.rc-detail .rc-detail-content{min-width:0;padding-top:8px!important}
+html body.subpage main.rc-detail .rc-detail-eyebrow{font-size:10px!important;font-weight:500!important;letter-spacing:.05em!important}
+html body.subpage main.rc-detail .rc-detail-content h1{font-size:clamp(23px,2vw,29px)!important;line-height:1.4!important;font-weight:500!important;letter-spacing:-.02em!important;margin:14px 0 16px!important}
+html body.subpage main.rc-detail .rc-detail-content h1 span{font-size:18px!important;font-weight:400!important;line-height:1.5!important}
+html body.subpage main.rc-detail .rc-detail-description{font-size:13px!important;line-height:1.75!important;margin-bottom:23px!important;color:#777!important}
+html body.subpage main.rc-detail .rc-detail-price{padding-bottom:19px!important;gap:11px!important}
+html body.subpage main.rc-detail .rc-detail-price strong{font-size:20px!important;font-weight:600!important}
+html body.subpage main.rc-detail .rc-detail-price del{font-size:12px!important}
+html body.subpage main.rc-detail .rc-detail-row{font-size:12px!important;padding:14px 0!important}
+html body.subpage main.rc-detail .rc-detail-disabled{min-height:46px!important;font-size:12px!important;margin-top:20px!important;font-weight:500!important}
+html body.subpage main.rc-detail .rc-detail-note{font-size:11px!important;line-height:1.7!important;margin:12px 0!important}
+html body.subpage main.rc-detail .rc-detail-info h2{font-size:26px!important;font-weight:500!important}
+html body.subpage main.rc-detail .rc-detail-info p{font-size:13px!important}
+@media(max-width:767px){
+html body.subpage main.rc-detail .rc-detail-content h1{font-size:23px!important}
+html body.subpage main.rc-detail .rc-detail-content h1 span{font-size:16px!important}
+html body.subpage main.rc-detail .rc-detail-description{font-size:12px!important}
+html body.subpage main.rc-detail .rc-detail-price strong{font-size:19px!important}
+html body.subpage main.rc-detail .rc-detail-info h2{font-size:22px!important}
+}
