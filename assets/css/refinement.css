@@ -347,3 +347,11 @@ html body .rc-contact-modal-box,html body .re-modal-card{max-width:calc(100vw - 
 html{scroll-behavior:auto!important}
 html body *,html body *::before,html body *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
 }
+
+
+/* 2026-10-21: warm cream full-background tone */
+:root{--rc-cream-page:#fff9ee;--rc-cream-band:#fff6e5;--rc-cream-reference:#fef3db}
+html body.home-page{background:var(--rc-cream-page)!important}
+html body.home-page .rc-home{background:var(--rc-cream-page)!important}
+html body.home-page .rc-about-strip{background:var(--rc-cream-band)!important}
+html body.home-page .rc-tech-band{background:var(--rc-cream-band)!important}
